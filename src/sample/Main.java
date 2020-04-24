@@ -1,23 +1,31 @@
 package sample;
 
+import constant.StringValue;
 import factory.MenuFactory;
 import javafx.application.Application;
+import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
-import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.*;
-import javafx.scene.text.TextAlignment;
 import javafx.stage.Stage;
-import util.AlertUtil;
+import model.Rate;
+import model.Score;
+import util.FileUtil;
+import view.*;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Main extends Application {
 
+    private List<String> typeList;
+    private List<String> placeList;
+    private List<Score> scoreList;
+    private List<Rate> rateList = new ArrayList<>();
     private List<Label> leftItems = new ArrayList<>();
     private List<VBox> rightItems = new ArrayList<>();
     private VBox right;
@@ -28,6 +36,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
+        initData();
         BorderPane layout = initLayout();
 
         primaryStage.setTitle("Hello World");
@@ -66,11 +75,13 @@ public class Main extends Application {
 
     private VBox initLeft() {
         VBox vBox = new VBox();
-        Label item01 = initLeftItem("Crime Severity Score");
-        Label item02 = initLeftItem("Offence Rate");
+        Label item01 = initLeftItem("Crime Severity Score\n(Offence Group)");
+        Label item02 = initLeftItem("Crime Severity Score (Regions)");
+        Label item03 = initLeftItem("Offence Rate (Offence Group)");
+        Label item04 = initLeftItem("Offence Rate (Regions)");
 
-        vBox.getChildren().addAll(item01, item02);
-        vBox.setPrefWidth(200);
+        vBox.getChildren().addAll(item01, item02, item03, item04);
+        vBox.setPrefWidth(250);
         vBox.setStyle("-fx-background-color: #fff");
         return vBox;
     }
@@ -78,8 +89,8 @@ public class Main extends Application {
     private Label initLeftItem(String text) {
         Label label = new Label(text);
         label.setId("" + leftItems.size());
-        label.setPrefWidth(200);
-        label.setPrefHeight(70);
+        label.setPrefWidth(250);
+        label.setPrefHeight(80);
         label.setStyle("-fx-background-color: #fff");
         label.setPadding(new Insets(10, 10, 10, 10));
         label.setOnMouseClicked(new EventHandler<MouseEvent>() {
@@ -95,19 +106,21 @@ public class Main extends Application {
     private VBox initRight() {
         VBox vBox = new VBox();
 
-        VBox item01 = initRightItem();
-        VBox item02 = initRightItem();
+        VBox item01 = initRightItem(0);
+        VBox item02 = initRightItem(1);
+        VBox item03 = initRightItem(2);
+        VBox item04 = initRightItem(3);
 
         vBox.getChildren().addAll(item01);
         return vBox;
     }
 
-    private VBox initRightItem() {
+    private VBox initRightItem(int id) {
         VBox vBox = new VBox();
         vBox.setPrefWidth(800);
         vBox.setPrefHeight(600);
         vBox.setId("" + rightItems.size());
-        vBox.getChildren().addAll(new Button("" + rightItems.size()));
+        initRightView(vBox, id);
         rightItems.add(vBox);
         return vBox;
     }
@@ -129,4 +142,92 @@ public class Main extends Application {
         }
     }
 
+    private void initData() {
+        File file = new File("data/data_score.csv");
+        ArrayList[] lists = FileUtil.initData(file);
+        typeList = lists[0];
+        placeList = lists[1];
+        scoreList = lists[2];
+    }
+
+    private void initRightView(VBox vBox, int id) {
+        if (id == 0) {
+            Label label = new Label("View Chart of Offence Group");
+
+            ChoiceBox<String> choiceBox = new ChoiceBox<>();
+            for (String s : typeList) {
+                choiceBox.getItems().add(s);
+            }
+            choiceBox.getSelectionModel().select(0);
+
+            Button viewChart = new Button("View Chart");
+            viewChart.setOnAction(actionEvent -> {
+                String type = choiceBox.getValue();
+                ChartBoxPlace chartBox = new ChartBoxPlace(typeList, placeList, scoreList, type);
+                chartBox.display();
+            });
+
+            Label text = new Label(StringValue.data_analysis);
+            text.setPadding(new Insets(30, 0, 0, 0));
+
+            ChoiceBox<String> choiceBox2 = new ChoiceBox<>();
+            for (String s : typeList) {
+                choiceBox2.getItems().add(s);
+            }
+            choiceBox2.getSelectionModel().select(0);
+
+            Button viewChart2 = new Button("View Annual Average Chart");
+            viewChart2.setOnAction(actionEvent -> {
+                String type = choiceBox2.getValue();
+                ChartBoxPlaceAverage chartBox = new ChartBoxPlaceAverage(typeList, placeList, scoreList, type);
+                chartBox.display();
+            });
+
+            Label text2 = new Label(StringValue.all_average);
+            text2.setPadding(new Insets(30, 0, 0, 0));
+
+            Button viewChart3 = new Button("View Annual Average Chart of All Groups");
+            viewChart3.setOnAction(actionEvent -> {
+                String type = choiceBox2.getValue();
+                ChartBoxPlaceAverageAll chartBox = new ChartBoxPlaceAverageAll(typeList, placeList, scoreList, type);
+                chartBox.display();
+            });
+
+            Label text3 = new Label(StringValue.total_group);
+            text3.setPadding(new Insets(30, 0, 0, 0));
+
+            Button viewChart4 = new Button("View Chart of Total Score");
+            viewChart4.setOnAction(actionEvent -> {
+                String type = choiceBox2.getValue();
+                ChartBoxPlaceAverageTotal chartBox = new ChartBoxPlaceAverageTotal(typeList, placeList, scoreList, type);
+                chartBox.display();
+            });
+
+            vBox.getChildren().addAll(label, choiceBox, viewChart, text, choiceBox2, viewChart2, text2, viewChart3, text3, viewChart4);
+            vBox.setSpacing(10);
+            vBox.setPadding(new Insets(20, 20, 20, 20));
+        } else if (id == 1) {
+            Label label = new Label("View Chart of Regions");
+
+            ChoiceBox<String> choiceBox = new ChoiceBox<>();
+            for (String s : placeList) {
+                choiceBox.getItems().add(s);
+            }
+            choiceBox.getSelectionModel().select(0);
+
+            Button viewChart = new Button("View Chart of All Offence Groups");
+            viewChart.setOnAction(actionEvent -> {
+                String place = choiceBox.getValue();
+                ChartBoxType chartBox = new ChartBoxType(typeList, placeList, scoreList, place);
+                chartBox.display();
+            });
+
+            Label text = new Label(StringValue.data_analysis);
+            text.setPadding(new Insets(30, 0, 0, 0));
+
+            vBox.getChildren().addAll(label, choiceBox, viewChart, text);
+            vBox.setSpacing(10);
+            vBox.setPadding(new Insets(20, 20, 20, 20));
+        }
+    }
 }
