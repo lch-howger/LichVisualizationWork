@@ -1,385 +1,70 @@
-Total recorded crime,ENGLAND AND WALES,111 ,111 ,104 ,102 ,99 ,90 ,85 ,78 ,74 ,70 ,63 ,62 ,63 ,68 ,75 ,84 ,90 ,85 ,89 
-Total recorded crime,ENGLAND,110 ,110 ,103 ,102 ,99 ,90 ,84 ,77 ,73 ,70 ,63 ,61 ,62 ,67 ,74 ,83 ,89 ,84 ,88 
-Total recorded crime,North East,112 ,108 ,100 ,100 ,97 ,87 ,79 ,68 ,62 ,59 ,52 ,55 ,57 ,68 ,84 ,103 ,110 ,106 ,109 
-Total recorded crime,Cleveland,132 ,133 ,123 ,128 ,123 ,119 ,99 ,85 ,77 ,78 ,70 ,70 ,75 ,86 ,91 ,101 ,119 ,105 ,121 
-Total recorded crime,Durham,85 ,81 ,78 ,88 ,88 ,79 ,74 ,66 ,59 ,57 ,48 ,53 ,53 ,58 ,74 ,97 ,101 ,98 ,100 
-Total recorded crime,Northumbria,116 ,110 ,100 ,93 ,91 ,77 ,74 ,63 ,58 ,53 ,47 ,49 ,51 ,65 ,86 ,106 ,111 ,109 ,108 
-Total recorded crime,North West,115 ,119 ,112 ,113 ,108 ,95 ,89 ,79 ,74 ,69 ,63 ,64 ,66 ,71 ,80 ,99 ,106 ,102 ,103 
-Total recorded crime,Cheshire,84 ,92 ,89 ,94 ,88 ,78 ,73 ,65 ,62 ,58 ,55 ,54 ,52 ,50 ,63 ,83 ,89 ,87 ,87 
-Total recorded crime,Cumbria,76 ,79 ,86 ,84 ,76 ,70 ,61 ,56 ,53 ,51 ,46 ,48 ,50 ,52 ,51 ,57 ,74 ,62 ,75 
-Total recorded crime,Greater Manchester,147 ,143 ,125 ,127 ,128 ,114 ,108 ,93 ,85 ,77 ,67 ,67 ,74 ,82 ,97 ,122 ,119 ,123 ,117 
-Total recorded crime,Lancashire,90 ,104 ,104 ,97 ,93 ,85 ,80 ,73 ,70 ,67 ,63 ,65 ,63 ,66 ,73 ,89 ,114 ,98 ,108 
-Total recorded crime,Merseyside,118 ,122 ,123 ,126 ,112 ,92 ,86 ,78 ,72 ,69 ,65 ,67 ,70 ,74 ,79 ,89 ,95 ,91 ,94 
-Total recorded crime,Yorkshire and The Humber,133 ,134 ,115 ,116 ,112 ,100 ,93 ,82 ,78 ,74 ,67 ,66 ,66 ,77 ,88 ,98 ,108 ,101 ,107 
-Total recorded crime,Humberside,149 ,159 ,138 ,128 ,124 ,106 ,98 ,87 ,82 ,78 ,68 ,72 ,72 ,75 ,84 ,93 ,110 ,98 ,110 
-Total recorded crime,North Yorkshire,87 ,92 ,78 ,75 ,69 ,63 ,61 ,53 ,53 ,48 ,43 ,43 ,43 ,46 ,45 ,48 ,55 ,50 ,56 
-Total recorded crime,South Yorkshire,118 ,110 ,108 ,125 ,122 ,111 ,99 ,85 ,77 ,75 ,69 ,68 ,69 ,75 ,88 ,102 ,104 ,102 ,102 
-Total recorded crime,West Yorkshire,152 ,153 ,123 ,120 ,115 ,105 ,99 ,89 ,85 ,82 ,73 ,71 ,70 ,90 ,105 ,116 ,128 ,119 ,128 
-Total recorded crime,East Midlands,115 ,114 ,104 ,99 ,98 ,92 ,86 ,78 ,69 ,66 ,57 ,57 ,58 ,58 ,64 ,70 ,78 ,71 ,79 
-Total recorded crime,Derbyshire,104 ,99 ,84 ,81 ,81 ,77 ,73 ,67 ,64 ,60 ,50 ,51 ,50 ,51 ,52 ,53 ,58 ,54 ,62 
-Total recorded crime,Leicestershire,101 ,100 ,98 ,93 ,94 ,89 ,86 ,80 ,70 ,67 ,57 ,59 ,57 ,58 ,67 ,78 ,84 ,80 ,84 
-Total recorded crime,Lincolnshire,93 ,90 ,86 ,84 ,81 ,73 ,70 ,66 ,63 ,61 ,52 ,50 ,49 ,49 ,51 ,55 ,70 ,56 ,74 
-Total recorded crime,Northamptonshire,111 ,118 ,111 ,102 ,99 ,94 ,88 ,80 ,70 ,71 ,67 ,58 ,65 ,68 ,75 ,75 ,82 ,75 ,82 
-Total recorded crime,Nottinghamshire,154 ,152 ,137 ,132 ,129 ,118 ,108 ,91 ,78 ,71 ,62 ,62 ,65 ,64 ,73 ,85 ,93 ,87 ,93 
-Total recorded crime,West Midlands ,111 ,110 ,96 ,95 ,93 ,84 ,77 ,70 ,70 ,64 ,56 ,57 ,57 ,63 ,70 ,76 ,81 ,76 ,81 
-Total recorded crime,Staffordshire,101 ,102 ,94 ,97 ,96 ,82 ,78 ,69 ,64 ,59 ,53 ,54 ,55 ,61 ,70 ,75 ,75 ,75 ,74 
-Total recorded crime,Warwickshire,85 ,87 ,81 ,82 ,85 ,75 ,69 ,62 ,59 ,61 ,53 ,52 ,50 ,57 ,67 ,74 ,74 ,73 ,73 
-Total recorded crime,West Mercia,88 ,89 ,79 ,71 ,68 ,66 ,64 ,58 ,58 ,56 ,49 ,47 ,49 ,58 ,65 ,67 ,68 ,66 ,68 
-Total recorded crime,West Midlands,131 ,127 ,109 ,108 ,104 ,94 ,85 ,78 ,79 ,70 ,62 ,63 ,63 ,66 ,73 ,81 ,90 ,82 ,90 
-Total recorded crime,East,88 ,90 ,85 ,83 ,80 ,74 ,69 ,63 ,61 ,59 ,53 ,52 ,54 ,59 ,65 ,72 ,78 ,73 ,79 
-Total recorded crime,Bedfordshire,100 ,103 ,96 ,99 ,95 ,86 ,76 ,70 ,71 ,66 ,57 ,58 ,62 ,63 ,66 ,71 ,86 ,74 ,85 
-Total recorded crime,Cambridgeshire,116 ,108 ,98 ,88 ,90 ,85 ,83 ,76 ,70 ,64 ,57 ,54 ,57 ,59 ,69 ,79 ,76 ,77 ,77 
-Total recorded crime,Essex,82 ,87 ,81 ,79 ,76 ,70 ,66 ,61 ,60 ,60 ,57 ,57 ,57 ,63 ,67 ,74 ,87 ,77 ,89 
-Total recorded crime,Hertfordshire,81 ,88 ,89 ,87 ,84 ,74 ,69 ,63 ,59 ,55 ,47 ,45 ,50 ,55 ,64 ,70 ,73 ,71 ,73 
-Total recorded crime,Norfolk,87 ,85 ,79 ,78 ,74 ,66 ,58 ,53 ,51 ,49 ,44 ,44 ,51 ,54 ,57 ,63 ,68 ,64 ,69 
-Total recorded crime,Suffolk,73 ,76 ,74 ,74 ,71 ,68 ,65 ,64 ,63 ,62 ,54 ,50 ,52 ,60 ,62 ,71 ,72 ,70 ,72 
-Total recorded crime,London,142 ,139 ,132 ,129 ,120 ,112 ,108 ,104 ,102 ,99 ,91 ,85 ,84 ,87 ,89 ,94 ,98 ,93 ,99 
-Total recorded crime,City of London,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:
-Total recorded crime,Metropolitan Police,141 ,138 ,131 ,128 ,119 ,111 ,107 ,103 ,101 ,98 ,91 ,84 ,83 ,86 ,89 ,93 ,97 ,93 ,99 
-Total recorded crime,South East,84 ,89 ,87 ,87 ,89 ,81 ,76 ,70 ,66 ,62 ,55 ,54 ,55 ,60 ,66 ,74 ,79 ,76 ,78 
-Total recorded crime,Hampshire,84 ,98 ,94 ,94 ,97 ,89 ,85 ,76 ,70 ,67 ,56 ,54 ,58 ,69 ,77 ,81 ,80 ,81 ,79 
-Total recorded crime,Kent,81 ,85 ,84 ,90 ,89 ,79 ,71 ,62 ,61 ,58 ,57 ,62 ,63 ,64 ,73 ,97 ,109 ,103 ,106 
-Total recorded crime,Surrey,62 ,67 ,64 ,63 ,66 ,63 ,59 ,57 ,57 ,54 ,46 ,42 ,44 ,51 ,54 ,62 ,65 ,61 ,64 
-Total recorded crime,Sussex,84 ,86 ,90 ,87 ,85 ,76 ,68 ,63 ,60 ,59 ,56 ,51 ,55 ,58 ,63 ,68 ,70 ,67 ,70 
-Total recorded crime,Thames Valley,96 ,98 ,95 ,92 ,96 ,89 ,88 ,82 ,76 ,65 ,58 ,56 ,52 ,55 ,59 ,63 ,68 ,64 ,68 
-Total recorded crime,South West,91 ,89 ,86 ,84 ,84 ,76 ,72 ,65 ,61 ,60 ,54 ,53 ,51 ,56 ,63 ,67 ,68 ,67 ,67 
-Total recorded crime,Avon and Somerset,113 ,107 ,104 ,99 ,102 ,92 ,87 ,79 ,74 ,71 ,61 ,60 ,60 ,72 ,84 ,83 ,81 ,82 ,80 
-Total recorded crime,Devon and Cornwall,80 ,80 ,81 ,76 ,75 ,67 ,61 ,55 ,52 ,54 ,50 ,51 ,47 ,45 ,49 ,60 ,61 ,60 ,60 
-Total recorded crime,Dorset,84 ,85 ,79 ,81 ,76 ,71 ,69 ,65 ,62 ,60 ,53 ,50 ,48 ,55 ,59 ,64 ,71 ,65 ,69 
-Total recorded crime,Gloucestershire,93 ,97 ,89 ,89 ,88 ,78 ,74 ,64 ,60 ,57 ,49 ,49 ,48 ,49 ,51 ,55 ,56 ,54 ,56 
-Total recorded crime,Wiltshire,70 ,67 ,62 ,65 ,69 ,67 ,62 ,57 ,55 ,52 ,49 ,48 ,46 ,54 ,59 ,61 ,60 ,61 ,60 
-Total recorded crime,WALES,99 ,97 ,89 ,86 ,86 ,81 ,78 ,72 ,66 ,62 ,57 ,56 ,59 ,61 ,66 ,74 ,82 ,76 ,83 
-Total recorded crime,Dyfed-Powys,49 ,61 ,64 ,59 ,59 ,50 ,47 ,43 ,42 ,40 ,36 ,36 ,37 ,42 ,45 ,50 ,54 ,50 ,56 
-Total recorded crime,Gwent,109 ,105 ,101 ,94 ,94 ,85 ,86 ,88 ,79 ,67 ,59 ,61 ,63 ,65 ,70 ,83 ,100 ,88 ,99 
-Total recorded crime,North Wales,96 ,91 ,79 ,74 ,78 ,67 ,67 ,65 ,61 ,62 ,55 ,53 ,53 ,56 ,59 ,74 ,86 ,77 ,88 
-Total recorded crime,South Wales,116 ,111 ,100 ,100 ,98 ,99 ,93 ,81 ,73 ,68 ,65 ,64 ,69 ,70 ,76 ,80 ,84 ,80 ,85 
-Violence against the person,ENGLAND AND WALES,14 ,15 ,16 ,16 ,15 ,14 ,13 ,13 ,12 ,11 ,11 ,11 ,14 ,17 ,20 ,24 ,28 ,25 ,29 
-Violence against the person,ENGLAND,13 ,15 ,16 ,16 ,15 ,14 ,13 ,13 ,12 ,11 ,11 ,11 ,14 ,17 ,20 ,24 ,28 ,25 ,28 
-Violence against the person,North East,12 ,13 ,13 ,14 ,14 ,12 ,11 ,10 ,10 ,8 ,8 ,8 ,11 ,16 ,23 ,30 ,36 ,32 ,36 
-Violence against the person,Cleveland,10 ,15 ,18 ,20 ,18 ,18 ,15 ,14 ,13 ,13 ,12 ,11 ,14 ,20 ,23 ,25 ,39 ,27 ,41 
-Violence against the person,Durham,11 ,9 ,9 ,13 ,13 ,11 ,9 ,9 ,9 ,8 ,7 ,8 ,11 ,15 ,23 ,34 ,39 ,36 ,39 
-Violence against the person,Northumbria,14 ,14 ,13 ,12 ,13 ,11 ,10 ,9 ,8 ,7 ,6 ,7 ,9 ,15 ,23 ,31 ,33 ,32 ,33 
-Violence against the person,North West,13 ,16 ,17 ,16 ,15 ,13 ,12 ,11 ,11 ,11 ,10 ,11 ,14 ,17 ,21 ,29 ,35 ,31 ,35 
-Violence against the person,Cheshire,9 ,13 ,13 ,16 ,14 ,13 ,12 ,11 ,10 ,10 ,11 ,10 ,11 ,13 ,18 ,26 ,32 ,28 ,31 
-Violence against the person,Cumbria,10 ,11 ,15 ,14 ,13 ,12 ,10 ,10 ,10 ,10 ,9 ,11 ,13 ,15 ,15 ,19 ,29 ,21 ,30 
-Violence against the person,Greater Manchester,16 ,18 ,16 ,15 ,15 ,14 ,13 ,12 ,12 ,12 ,11 ,11 ,15 ,19 ,24 ,34 ,35 ,35 ,35 
-Violence against the person,Lancashire,9 ,16 ,18 ,16 ,15 ,14 ,14 ,13 ,13 ,13 ,13 ,14 ,14 ,18 ,21 ,29 ,44 ,34 ,42 
-Violence against the person,Merseyside,15 ,16 ,19 ,18 ,14 ,11 ,9 ,8 ,8 ,8 ,8 ,9 ,13 ,18 ,21 ,25 ,32 ,27 ,32 
-Violence against the person,Yorkshire and The Humber,12 ,15 ,16 ,18 ,16 ,14 ,13 ,12 ,11 ,10 ,9 ,10 ,12 ,18 ,23 ,29 ,37 ,31 ,37 
-Violence against the person,Humberside,15 ,21 ,21 ,20 ,20 ,15 ,14 ,15 ,13 ,12 ,12 ,13 ,15 ,18 ,24 ,27 ,37 ,29 ,37 
-Violence against the person,North Yorkshire,8 ,10 ,12 ,12 ,10 ,9 ,8 ,8 ,8 ,8 ,8 ,8 ,9 ,11 ,12 ,13 ,18 ,14 ,18 
-Violence against the person,South Yorkshire,8 ,9 ,14 ,18 ,17 ,15 ,12 ,11 ,10 ,8 ,8 ,9 ,11 ,15 ,21 ,28 ,33 ,29 ,32 
-Violence against the person,West Yorkshire,13 ,18 ,17 ,18 ,17 ,15 ,14 ,12 ,12 ,10 ,10 ,10 ,13 ,22 ,29 ,36 ,46 ,38 ,47 
-Violence against the person,East Midlands,14 ,15 ,16 ,15 ,15 ,14 ,13 ,13 ,12 ,11 ,10 ,10 ,12 ,14 ,16 ,18 ,24 ,20 ,25 
-Violence against the person,Derbyshire,14 ,15 ,15 ,14 ,14 ,14 ,12 ,13 ,13 ,11 ,10 ,9 ,10 ,12 ,12 ,13 ,17 ,13 ,20 
-Violence against the person,Leicestershire,14 ,16 ,19 ,18 ,17 ,16 ,15 ,14 ,12 ,11 ,10 ,11 ,11 ,12 ,16 ,21 ,25 ,22 ,25 
-Violence against the person,Lincolnshire,12 ,13 ,13 ,11 ,11 ,10 ,9 ,9 ,9 ,9 ,8 ,8 ,8 ,10 ,11 ,12 ,23 ,14 ,26 
-Violence against the person,Northamptonshire,14 ,15 ,15 ,14 ,13 ,14 ,12 ,13 ,13 ,14 ,12 ,11 ,16 ,19 ,21 ,22 ,27 ,23 ,28 
-Violence against the person,Nottinghamshire,13 ,15 ,16 ,17 ,17 ,15 ,15 ,14 ,12 ,12 ,12 ,12 ,15 ,16 ,20 ,23 ,28 ,24 ,29 
-Violence against the person,West Midlands ,16 ,17 ,16 ,16 ,16 ,15 ,13 ,13 ,12 ,11 ,10 ,11 ,13 ,17 ,20 ,22 ,26 ,22 ,27 
-Violence against the person,Staffordshire,16 ,19 ,19 ,19 ,19 ,15 ,15 ,16 ,15 ,12 ,12 ,14 ,15 ,20 ,24 ,26 ,28 ,27 ,28 
-Violence against the person,Warwickshire,10 ,12 ,11 ,10 ,11 ,12 ,9 ,8 ,8 ,8 ,8 ,8 ,9 ,15 ,19 ,21 ,24 ,21 ,24 
-Violence against the person,West Mercia,14 ,15 ,13 ,11 ,11 ,11 ,10 ,9 ,10 ,10 ,9 ,9 ,12 ,18 ,21 ,22 ,24 ,22 ,25 
-Violence against the person,West Midlands,17 ,18 ,18 ,18 ,18 ,17 ,15 ,15 ,13 ,11 ,11 ,12 ,13 ,15 ,17 ,20 ,26 ,21 ,28 
-Violence against the person,East,10 ,12 ,13 ,12 ,11 ,10 ,9 ,10 ,10 ,10 ,9 ,10 ,12 ,16 ,18 ,21 ,25 ,22 ,26 
-Violence against the person,Bedfordshire,12 ,13 ,14 ,14 ,13 ,10 ,10 ,11 ,12 ,11 ,10 ,11 ,14 ,16 ,16 ,19 ,23 ,20 ,24 
-Violence against the person,Cambridgeshire,14 ,15 ,15 ,11 ,11 ,11 ,11 ,11 ,11 ,9 ,8 ,8 ,11 ,13 ,17 ,20 ,20 ,20 ,21 
-Violence against the person,Essex,11 ,13 ,12 ,11 ,11 ,11 ,10 ,10 ,10 ,11 ,10 ,11 ,13 ,17 ,19 ,23 ,32 ,24 ,33 
-Violence against the person,Hertfordshire,6 ,10 ,13 ,12 ,12 ,10 ,9 ,8 ,7 ,8 ,7 ,7 ,10 ,14 ,17 ,20 ,22 ,20 ,21 
-Violence against the person,Norfolk,11 ,12 ,13 ,12 ,11 ,10 ,8 ,9 ,9 ,10 ,9 ,10 ,14 ,16 ,18 ,21 ,25 ,21 ,25 
-Violence against the person,Suffolk,9 ,11 ,12 ,11 ,11 ,9 ,9 ,11 ,11 ,11 ,10 ,10 ,11 ,16 ,19 ,22 ,26 ,23 ,26 
-Violence against the person,London,21 ,21 ,23 ,22 ,20 ,18 ,18 ,18 ,17 ,16 ,15 ,16 ,19 ,22 ,22 ,23 ,25 ,23 ,24 
-Violence against the person,City of London,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:
-Violence against the person,Metropolitan Police,21 ,21 ,23 ,22 ,20 ,18 ,18 ,18 ,17 ,16 ,15 ,15 ,19 ,22 ,22 ,23 ,24 ,23 ,24 
-Violence against the person,South East,10 ,12 ,13 ,14 ,14 ,14 ,13 ,12 ,12 ,10 ,10 ,10 ,13 ,17 ,19 ,23 ,27 ,24 ,27 
-Violence against the person,Hampshire,10 ,15 ,16 ,16 ,16 ,16 ,15 ,15 ,14 ,13 ,12 ,11 ,15 ,22 ,25 ,27 ,28 ,27 ,28 
-Violence against the person,Kent,10 ,11 ,13 ,14 ,14 ,13 ,12 ,11 ,11 ,10 ,11 ,15 ,16 ,19 ,25 ,36 ,44 ,39 ,42 
-Violence against the person,Surrey,7 ,8 ,8 ,8 ,9 ,9 ,8 ,9 ,10 ,9 ,8 ,8 ,10 ,14 ,15 ,18 ,20 ,18 ,20 
-Violence against the person,Sussex,11 ,11 ,15 ,15 ,15 ,13 ,11 ,11 ,10 ,9 ,9 ,9 ,14 ,16 ,18 ,21 ,23 ,21 ,24 
-Violence against the person,Thames Valley,10 ,11 ,13 ,13 ,15 ,15 ,14 ,15 ,12 ,10 ,9 ,9 ,9 ,12 ,13 ,15 ,20 ,16 ,20 
-Violence against the person,South West,11 ,13 ,14 ,14 ,13 ,12 ,12 ,11 ,11 ,10 ,10 ,10 ,12 ,15 ,18 ,21 ,23 ,21 ,23 
-Violence against the person,Avon and Somerset,11 ,14 ,16 ,15 ,15 ,14 ,13 ,13 ,12 ,11 ,10 ,10 ,12 ,19 ,24 ,24 ,25 ,25 ,25 
-Violence against the person,Devon and Cornwall,13 ,14 ,15 ,13 ,12 ,11 ,11 ,10 ,10 ,11 ,12 ,12 ,13 ,14 ,16 ,21 ,24 ,22 ,24 
-Violence against the person,Dorset,10 ,11 ,12 ,14 ,13 ,12 ,12 ,12 ,11 ,10 ,8 ,8 ,10 ,14 ,17 ,19 ,24 ,20 ,25 
-Violence against the person,Gloucestershire,12 ,13 ,14 ,14 ,14 ,12 ,12 ,10 ,9 ,8 ,7 ,7 ,8 ,10 ,11 ,14 ,15 ,14 ,16 
-Violence against the person,Wiltshire,9 ,8 ,8 ,9 ,11 ,10 ,10 ,10 ,9 ,9 ,9 ,10 ,11 ,16 ,18 ,19 ,20 ,19 ,20 
-Violence against the person,WALES,14 ,14 ,14 ,14 ,13 ,12 ,11 ,11 ,11 ,10 ,10 ,11 ,14 ,17 ,20 ,24 ,30 ,25 ,30 
-Violence against the person,Dyfed-Powys,9 ,12 ,13 ,11 ,11 ,9 ,8 ,7 ,7 ,7 ,7 ,7 ,9 ,12 ,15 ,18 ,21 ,18 ,23 
-Violence against the person,Gwent,19 ,17 ,17 ,16 ,15 ,13 ,12 ,13 ,11 ,9 ,10 ,12 ,14 ,18 ,20 ,25 ,34 ,28 ,34 
-Violence against the person,North Wales,15 ,14 ,15 ,14 ,15 ,12 ,11 ,13 ,12 ,13 ,12 ,12 ,14 ,16 ,20 ,27 ,36 ,30 ,37 
-Violence against the person,South Wales,13 ,13 ,13 ,13 ,12 ,13 ,13 ,11 ,11 ,10 ,11 ,12 ,16 ,19 ,23 ,24 ,28 ,25 ,29 
-Sexual offences,ENGLAND AND WALES,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,3 ,3 ,3 ,3 
-Sexual offences,ENGLAND,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,3 ,3 ,3 ,3 
-Sexual offences,North East,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,3 ,3 ,3 ,3 
-Sexual offences,Cleveland,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,3 ,3 ,3 ,3 
-Sexual offences,Durham,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,3 ,3 ,3 ,3 
-Sexual offences,Northumbria,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,3 ,3 ,3 ,3 
-Sexual offences,North West,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,3 ,3 ,3 ,3 
-Sexual offences,Cheshire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,3 ,3 ,3 ,3 
-Sexual offences,Cumbria,0 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,3 ,3 ,3 ,3 
-Sexual offences,Greater Manchester,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,3 ,3 ,3 ,3 
-Sexual offences,Lancashire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,3 ,4 ,3 ,4 
-Sexual offences,Merseyside,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,2 ,2 ,2 
-Sexual offences,Yorkshire and The Humber,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,3 ,3 ,3 ,3 
-Sexual offences,Humberside,1 ,2 ,2 ,2 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,3 ,4 ,3 ,3 
-Sexual offences,North Yorkshire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,2 ,2 
-Sexual offences,South Yorkshire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,3 ,3 ,3 ,3 
-Sexual offences,West Yorkshire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,3 ,4 ,4 ,4 ,4 
-Sexual offences,East Midlands,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,3 ,2 ,3 
-Sexual offences,Derbyshire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,2 ,2 ,2 
-Sexual offences,Leicestershire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,3 ,2 ,3 
-Sexual offences,Lincolnshire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,3 ,2 ,3 
-Sexual offences,Northamptonshire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,3 ,3 ,3 ,3 
-Sexual offences,Nottinghamshire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,3 ,3 ,3 ,3 
-Sexual offences,West Midlands ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,3 ,3 ,2 ,3 
-Sexual offences,Staffordshire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,3 ,3 ,3 ,3 ,3 
-Sexual offences,Warwickshire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,3 ,3 ,2 ,2 ,2 
-Sexual offences,West Mercia,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,3 ,3 ,3 ,3 ,3 
-Sexual offences,West Midlands,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,3 ,2 ,3 
-Sexual offences,East,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,2 ,2 ,2 
-Sexual offences,Bedfordshire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,1 ,2 ,3 ,2 ,2 
-Sexual offences,Cambridgeshire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,2 ,2 ,2 
-Sexual offences,Essex,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,2 ,2 ,2 
-Sexual offences,Hertfordshire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,2 
-Sexual offences,Norfolk,1 ,1 ,1 ,2 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,3 ,3 ,3 ,3 
-Sexual offences,Suffolk,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,3 ,3 ,3 ,3 
-Sexual offences,London,2 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,2 ,2 ,2 ,2 
-Sexual offences,City of London,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:
-Sexual offences,Metropolitan Police,2 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,2 ,2 ,2 ,2 
-Sexual offences,South East,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,3 ,3 ,3 ,3 
-Sexual offences,Hampshire,1 ,1 ,2 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,3 ,3 ,3 ,3 ,3 
-Sexual offences,Kent,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,4 ,4 ,4 ,4 
-Sexual offences,Surrey,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,0 ,1 ,1 ,1 ,2 ,2 ,2 ,2 ,2 
-Sexual offences,Sussex,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,3 ,3 ,3 ,3 
-Sexual offences,Thames Valley,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,2 ,2 ,2 ,2 
-Sexual offences,South West,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,2 ,2 ,2 
-Sexual offences,Avon and Somerset,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,3 ,3 ,3 ,3 
-Sexual offences,Devon and Cornwall,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,3 ,3 ,3 ,3 
-Sexual offences,Dorset,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,3 ,2 ,3 
-Sexual offences,Gloucestershire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,2 ,2 
-Sexual offences,Wiltshire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,2 ,2 ,2 ,2 
-Sexual offences,WALES,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,3 ,3 ,3 ,3 
-Sexual offences,Dyfed-Powys,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,2 ,2 ,2 
-Sexual offences,Gwent,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,1 ,2 ,3 ,2 ,3 
-Sexual offences,North Wales,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,3 ,4 ,4 ,4 ,4 
-Sexual offences,South Wales,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,3 ,2 ,3 
-Robbery,ENGLAND AND WALES,2 ,2 ,2 ,2 ,2 ,2 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 
-Robbery,ENGLAND,2 ,2 ,2 ,2 ,2 ,2 ,2 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,1 ,2 
-Robbery,North East,1 ,1 ,1 ,1 ,1 ,1 ,1 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,1 ,1 ,1 ,1 
-Robbery,Cleveland,3 ,2 ,2 ,1 ,1 ,1 ,1 ,1 ,1 ,0 ,1 ,0 ,1 ,1 ,1 ,1 ,1 ,1 ,1 
-Robbery,Durham,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 
-Robbery,Northumbria,1 ,1 ,1 ,1 ,1 ,1 ,1 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,1 ,1 ,1 ,1 ,1 
-Robbery,North West,2 ,2 ,2 ,2 ,2 ,2 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 
-Robbery,Cheshire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 
-Robbery,Cumbria,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 
-Robbery,Greater Manchester,4 ,4 ,3 ,3 ,3 ,3 ,3 ,2 ,2 ,2 ,1 ,1 ,1 ,1 ,2 ,2 ,3 ,3 ,3 
-Robbery,Lancashire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,1 ,1 ,1 ,1 ,1 
-Robbery,Merseyside,2 ,2 ,2 ,2 ,2 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 
-Robbery,Yorkshire and The Humber,2 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 
-Robbery,Humberside,2 ,2 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 
-Robbery,North Yorkshire,0 ,1 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 
-Robbery,South Yorkshire,2 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 
-Robbery,West Yorkshire,2 ,2 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,2 ,1 ,2 
-Robbery,East Midlands,2 ,2 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 
-Robbery,Derbyshire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 
-Robbery,Leicestershire,2 ,2 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 
-Robbery,Lincolnshire,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 
-Robbery,Northamptonshire,2 ,2 ,1 ,2 ,2 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 
-Robbery,Nottinghamshire,3 ,2 ,2 ,2 ,2 ,2 ,2 ,2 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 
-Robbery,West Midlands ,2 ,2 ,2 ,2 ,2 ,2 ,2 ,2 ,2 ,2 ,1 ,1 ,1 ,1 ,1 ,2 ,2 ,2 ,2 
-Robbery,Staffordshire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,0 ,0 ,0 ,0 ,0 ,1 ,1 ,1 ,1 ,1 
-Robbery,Warwickshire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,0 ,0 ,0 ,0 ,0 ,1 ,1 ,1 ,1 
-Robbery,West Mercia,1 ,1 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,1 
-Robbery,West Midlands,4 ,4 ,4 ,3 ,4 ,3 ,3 ,3 ,3 ,3 ,2 ,2 ,2 ,2 ,2 ,3 ,3 ,3 ,3 
-Robbery,East,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,0 ,0 ,1 ,1 ,1 ,1 ,1 ,1 
-Robbery,Bedfordshire,2 ,2 ,2 ,2 ,2 ,2 ,2 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 
-Robbery,Cambridgeshire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,0 ,0 ,1 ,1 ,1 ,1 ,1 ,1 ,1 
-Robbery,Essex,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 
-Robbery,Hertfordshire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,0 ,0 ,0 ,0 ,1 ,1 ,1 ,1 ,1 
-Robbery,Norfolk,1 ,1 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,1 ,0 ,1 
-Robbery,Suffolk,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,1 ,1 ,1 
-Robbery,London,6 ,6 ,5 ,6 ,6 ,5 ,4 ,4 ,5 ,5 ,4 ,3 ,3 ,3 ,3 ,4 ,4 ,4 ,4 
-Robbery,City of London,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:
-Robbery,Metropolitan Police,6 ,6 ,5 ,6 ,6 ,5 ,4 ,4 ,5 ,5 ,4 ,3 ,3 ,3 ,3 ,4 ,4 ,4 ,4 
-Robbery,South East,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,0 ,0 ,0 ,0 ,0 ,1 ,1 ,1 ,1 
-Robbery,Hampshire,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,0 ,0 ,0 ,0 ,0 ,1 ,1 ,1 ,1 
-Robbery,Kent,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 
-Robbery,Surrey,1 ,1 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 
-Robbery,Sussex,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,0 ,0 ,0 ,0 ,0 ,1 ,1 ,1 ,1 ,1 
-Robbery,Thames Valley,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,0 ,0 ,0 ,0 ,1 ,1 ,1 ,1 
-Robbery,South West,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,1 ,1 ,1 ,1 
-Robbery,Avon and Somerset,2 ,2 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,1 ,0 ,1 ,1 ,1 ,1 ,1 ,1 ,1 
-Robbery,Devon and Cornwall,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 
-Robbery,Dorset,1 ,1 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 
-Robbery,Gloucestershire,1 ,1 ,1 ,1 ,1 ,1 ,0 ,0 ,1 ,0 ,0 ,0 ,0 ,0 ,0 ,1 ,1 ,1 ,1 
-Robbery,Wiltshire,1 ,1 ,0 ,0 ,1 ,1 ,1 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 
-Robbery,WALES,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 
-Robbery,Dyfed-Powys,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 
-Robbery,Gwent,1 ,0 ,1 ,1 ,1 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,1 ,0 ,0 
-Robbery,North Wales,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 
-Robbery,South Wales,1 ,1 ,0 ,1 ,1 ,1 ,1 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 
-Theft offences,ENGLAND AND WALES,65 ,62 ,54 ,52 ,49 ,45 ,43 ,39 ,38 ,37 ,34 ,33 ,31 ,31 ,32 ,34 ,34 ,34 ,34 
-Theft offences,ENGLAND,65 ,62 ,53 ,51 ,49 ,45 ,42 ,39 ,38 ,37 ,34 ,33 ,31 ,31 ,32 ,35 ,34 ,34 ,34 
-Theft offences,North East,61 ,56 ,48 ,46 ,43 ,40 ,37 ,31 ,30 ,30 ,26 ,28 ,27 ,29 ,33 ,37 ,37 ,37 ,36 
-Theft offences,Cleveland,85 ,78 ,63 ,61 ,56 ,56 ,46 ,38 ,37 ,39 ,36 ,36 ,36 ,40 ,41 ,47 ,46 ,47 ,45 
-Theft offences,Durham,43 ,41 ,36 ,38 ,38 ,35 ,35 ,32 ,29 ,29 ,24 ,26 ,25 ,24 ,27 ,30 ,29 ,30 ,29 
-Theft offences,Northumbria,59 ,53 ,46 ,43 ,40 ,35 ,34 ,29 ,28 ,26 ,24 ,25 ,24 ,28 ,33 ,36 ,36 ,36 ,35 
-Theft offences,North West,66 ,63 ,55 ,54 ,52 ,46 ,44 ,38 ,37 ,34 ,32 ,33 ,32 ,32 ,34 ,36 ,35 ,36 ,34 
-Theft offences,Cheshire,50 ,50 ,44 ,45 ,44 ,40 ,38 ,33 ,32 ,30 ,28 ,28 ,25 ,21 ,22 ,24 ,24 ,24 ,23 
-Theft offences,Cumbria,39 ,37 ,36 ,32 ,29 ,25 ,24 ,22 ,21 ,20 ,20 ,20 ,18 ,19 ,18 ,19 ,20 ,19 ,19 
-Theft offences,Greater Manchester,87 ,79 ,66 ,65 ,64 ,58 ,56 ,48 ,45 ,40 ,36 ,37 ,37 ,39 ,42 ,44 ,44 ,44 ,43 
-Theft offences,Lancashire,50 ,51 ,47 ,43 ,43 ,39 ,38 ,34 ,34 ,33 ,32 ,33 ,31 ,30 ,32 ,35 ,37 ,36 ,35 
-Theft offences,Merseyside,65 ,65 ,59 ,57 ,52 ,42 ,38 ,34 ,33 ,33 ,32 ,33 ,32 ,32 ,32 ,34 ,31 ,33 ,30 
-Theft offences,Yorkshire and The Humber,86 ,79 ,61 ,59 ,57 ,52 ,50 ,44 ,44 ,43 ,38 ,38 ,35 ,37 ,39 ,40 ,38 ,39 ,37 
-Theft offences,Humberside,95 ,89 ,72 ,66 ,61 ,52 ,49 ,43 ,43 ,41 ,36 ,38 ,37 ,36 ,36 ,39 ,39 ,40 ,39 
-Theft offences,North Yorkshire,54 ,54 ,40 ,39 ,36 ,32 ,32 ,27 ,28 ,26 ,23 ,23 ,21 ,21 ,20 ,20 ,21 ,20 ,21 
-Theft offences,South Yorkshire,77 ,68 ,58 ,64 ,63 ,58 ,53 ,46 ,44 ,45 ,42 ,40 ,38 ,38 ,42 ,43 ,39 ,41 ,39 
-Theft offences,West Yorkshire,100 ,90 ,65 ,60 ,59 ,56 ,54 ,49 ,50 ,50 ,43 ,42 ,39 ,43 ,45 ,45 ,44 ,45 ,42 
-Theft offences,East Midlands,71 ,66 ,56 ,51 ,50 ,47 ,44 ,39 ,35 ,35 ,30 ,31 ,29 ,28 ,30 ,32 ,32 ,32 ,31 
-Theft offences,Derbyshire,63 ,57 ,43 ,40 ,39 ,37 ,37 ,33 ,31 ,30 ,26 ,27 ,26 ,24 ,25 ,26 ,24 ,25 ,24 
-Theft offences,Leicestershire,56 ,53 ,48 ,44 ,45 ,43 ,42 ,40 ,35 ,35 ,30 ,33 ,31 ,31 ,34 ,37 ,35 ,36 ,34 
-Theft offences,Lincolnshire,53 ,46 ,42 ,42 ,39 ,35 ,35 ,33 ,33 ,34 ,29 ,28 ,26 ,25 ,25 ,27 ,26 ,26 ,26 
-Theft offences,Northamptonshire,64 ,68 ,60 ,54 ,52 ,50 ,47 ,41 ,35 ,36 ,36 ,31 ,30 ,30 ,36 ,33 ,34 ,33 ,33 
-Theft offences,Nottinghamshire,106 ,99 ,82 ,73 ,70 ,64 ,57 ,46 ,40 ,38 ,32 ,33 ,32 ,30 ,32 ,37 ,38 ,37 ,36 
-Theft offences,West Midlands ,63 ,59 ,48 ,46 ,44 ,41 ,38 ,34 ,36 ,34 ,29 ,29 ,28 ,28 ,31 ,34 ,33 ,33 ,32 
-Theft offences,Staffordshire,53 ,50 ,43 ,44 ,43 ,39 ,36 ,30 ,29 ,27 ,24 ,23 ,23 ,23 ,25 ,27 ,26 ,27 ,26 
-Theft offences,Warwickshire,52 ,50 ,46 ,44 ,44 ,37 ,38 ,34 ,33 ,37 ,32 ,31 ,28 ,27 ,30 ,34 ,32 ,33 ,31 
-Theft offences,West Mercia,47 ,45 ,39 ,35 ,32 ,32 ,32 ,30 ,31 ,29 ,25 ,25 ,23 ,23 ,25 ,26 ,25 ,26 ,25 
-Theft offences,West Midlands,77 ,71 ,55 ,53 ,50 ,46 ,41 ,37 ,42 ,38 ,33 ,33 ,33 ,32 ,36 ,40 ,40 ,39 ,39 
-Theft offences,East,51 ,49 ,44 ,43 ,41 ,38 ,35 ,32 ,32 ,31 ,28 ,27 ,26 ,26 ,27 ,30 ,30 ,29 ,29 
-Theft offences,Bedfordshire,62 ,62 ,53 ,55 ,54 ,50 ,42 ,38 ,38 ,35 ,30 ,31 ,31 ,30 ,33 ,34 ,39 ,35 ,37 
-Theft offences,Cambridgeshire,70 ,61 ,53 ,48 ,49 ,46 ,47 ,41 ,39 ,35 ,33 ,31 ,30 ,29 ,33 ,38 ,35 ,36 ,35 
-Theft offences,Essex,46 ,45 ,41 ,41 ,39 ,35 ,33 ,31 ,31 ,33 ,32 ,31 ,28 ,29 ,29 ,30 ,31 ,30 ,30 
-Theft offences,Hertfordshire,52 ,52 ,48 ,46 ,42 ,39 ,37 ,33 ,32 ,29 ,24 ,24 ,24 ,25 ,27 ,30 ,31 ,30 ,31 
-Theft offences,Norfolk,48 ,44 ,37 ,35 ,34 ,31 ,28 ,25 ,24 ,23 ,20 ,19 ,19 ,19 ,20 ,21 ,20 ,21 ,20 
-Theft offences,Suffolk,38 ,37 ,34 ,34 ,32 ,31 ,29 ,29 ,30 ,30 ,26 ,23 ,23 ,24 ,23 ,25 ,23 ,25 ,23 
-Theft offences,London,83 ,80 ,73 ,71 ,64 ,58 ,55 ,54 ,55 ,55 ,52 ,47 ,42 ,42 ,43 ,46 ,49 ,46 ,50 
-Theft offences,City of London,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:
-Theft offences,Metropolitan Police,83 ,79 ,72 ,70 ,63 ,58 ,55 ,53 ,54 ,55 ,52 ,46 ,42 ,41 ,43 ,46 ,48 ,46 ,50 
-Theft offences,South East,50 ,49 ,45 ,44 ,44 ,39 ,38 ,35 ,34 ,33 ,29 ,28 ,26 ,25 ,27 ,29 ,28 ,28 ,27 
-Theft offences,Hampshire,46 ,47 ,43 ,44 ,44 ,40 ,40 ,36 ,34 ,33 ,27 ,26 ,24 ,25 ,28 ,29 ,27 ,29 ,26 
-Theft offences,Kent,46 ,45 ,43 ,45 ,44 ,39 ,35 ,31 ,32 ,31 ,30 ,30 ,30 ,27 ,28 ,31 ,32 ,31 ,32 
-Theft offences,Surrey,37 ,38 ,34 ,32 ,33 ,30 ,29 ,28 ,28 ,28 ,23 ,21 ,20 ,20 ,21 ,23 ,24 ,23 ,23 
-Theft offences,Sussex,50 ,49 ,46 ,43 ,40 ,35 ,34 ,31 ,30 ,32 ,30 ,27 ,25 ,23 ,24 ,25 ,24 ,24 ,24 
-Theft offences,Thames Valley,62 ,60 ,54 ,51 ,51 ,46 ,46 ,44 ,41 ,37 ,33 ,32 ,28 ,28 ,30 ,32 ,30 ,31 ,29 
-Theft offences,South West,55 ,50 ,45 ,42 ,41 ,37 ,35 ,32 ,31 ,31 ,27 ,26 ,24 ,24 ,25 ,26 ,24 ,25 ,23 
-Theft offences,Avon and Somerset,75 ,63 ,56 ,52 ,52 ,48 ,46 ,40 ,38 ,36 ,31 ,30 ,30 ,32 ,33 ,32 ,29 ,31 ,29 
-Theft offences,Devon and Cornwall,43 ,39 ,38 ,35 ,35 ,30 ,28 ,24 ,22 ,24 ,21 ,21 ,19 ,16 ,17 ,19 ,18 ,19 ,17 
-Theft offences,Dorset,49 ,48 ,42 ,41 ,37 ,34 ,34 ,33 ,33 ,34 ,30 ,28 ,24 ,26 ,26 ,27 ,27 ,27 ,26 
-Theft offences,Gloucestershire,56 ,58 ,48 ,45 ,43 ,38 ,38 ,33 ,34 ,33 ,28 ,29 ,27 ,26 ,26 ,27 ,26 ,26 ,25 
-Theft offences,Wiltshire,40 ,37 ,34 ,33 ,34 ,34 ,30 ,28 ,30 ,29 ,26 ,24 ,21 ,22 ,23 ,25 ,22 ,24 ,22 
-Theft offences,WALES,51 ,50 ,43 ,40 ,40 ,37 ,36 ,34 ,32 ,30 ,27 ,26 ,26 ,24 ,25 ,25 ,25 ,25 ,25 
-Theft offences,Dyfed-Powys,18 ,23 ,24 ,20 ,20 ,18 ,18 ,16 ,15 ,14 ,13 ,12 ,12 ,13 ,14 ,15 ,15 ,15 ,15 
-Theft offences,Gwent,51 ,52 ,48 ,45 ,42 ,38 ,41 ,45 ,42 ,34 ,29 ,29 ,29 ,26 ,28 ,28 ,28 ,28 ,27 
-Theft offences,North Wales,47 ,43 ,33 ,28 ,29 ,25 ,27 ,26 ,26 ,29 ,24 ,24 ,22 ,21 ,21 ,23 ,23 ,22 ,23 
-Theft offences,South Wales,67 ,64 ,55 ,53 ,52 ,51 ,46 ,40 ,37 ,36 ,34 ,32 ,32 ,30 ,30 ,30 ,29 ,29 ,29 
-Criminal damage and arson,ENGLAND AND WALES,21 ,23 ,22 ,22 ,22 ,19 ,17 ,15 ,13 ,11 ,9 ,9 ,9 ,9 ,10 ,10 ,10 ,10 ,10 
-Criminal damage and arson,ENGLAND,21 ,23 ,22 ,22 ,22 ,19 ,17 ,14 ,12 ,11 ,9 ,9 ,9 ,9 ,10 ,10 ,10 ,10 ,9 
-Criminal damage and arson,North East,28 ,29 ,29 ,28 ,28 ,24 ,21 ,17 ,14 ,12 ,11 ,11 ,11 ,13 ,15 ,16 ,16 ,16 ,16 
-Criminal damage and arson,Cleveland,26 ,31 ,30 ,33 ,33 ,32 ,25 ,20 ,16 ,17 ,14 ,14 ,15 ,16 ,16 ,17 ,17 ,17 ,17 
-Criminal damage and arson,Durham,24 ,24 ,25 ,27 ,27 ,24 ,21 ,18 ,14 ,13 ,11 ,11 ,11 ,11 ,14 ,16 ,15 ,16 ,15 
-Criminal damage and arson,Northumbria,30 ,30 ,29 ,26 ,26 ,21 ,19 ,16 ,13 ,11 ,10 ,10 ,10 ,13 ,15 ,16 ,16 ,16 ,15 
-Criminal damage and arson,North West,26 ,29 ,28 ,29 ,28 ,23 ,20 ,17 ,14 ,13 ,11 ,11 ,11 ,11 ,12 ,13 ,12 ,13 ,12 
-Criminal damage and arson,Cheshire,19 ,23 ,24 ,25 ,22 ,19 ,16 ,13 ,11 ,11 ,10 ,9 ,8 ,8 ,9 ,10 ,9 ,10 ,9 
-Criminal damage and arson,Cumbria,21 ,24 ,26 ,27 ,25 ,23 ,18 ,15 ,14 ,13 ,11 ,10 ,10 ,10 ,10 ,10 ,11 ,10 ,11 
-Criminal damage and arson,Greater Manchester,30 ,32 ,29 ,29 ,30 ,25 ,23 ,18 ,15 ,13 ,11 ,10 ,11 ,13 ,14 ,15 ,13 ,14 ,12 
-Criminal damage and arson,Lancashire,22 ,28 ,28 ,28 ,26 ,22 ,20 ,17 ,14 ,13 ,11 ,12 ,11 ,12 ,12 ,13 ,14 ,14 ,13 
-Criminal damage and arson,Merseyside,27 ,29 ,30 ,31 ,30 ,22 ,19 ,17 ,14 ,13 ,12 ,12 ,12 ,12 ,12 ,13 ,11 ,13 ,11 
-Criminal damage and arson,Yorkshire and The Humber,26 ,28 ,28 ,27 ,27 ,23 ,21 ,17 ,15 ,13 ,11 ,11 ,10 ,12 ,13 ,13 ,13 ,13 ,12 
-Criminal damage and arson,Humberside,28 ,32 ,31 ,29 ,29 ,24 ,21 ,19 ,16 ,14 ,12 ,12 ,11 ,12 ,13 ,14 ,14 ,14 ,14 
-Criminal damage and arson,North Yorkshire,17 ,19 ,18 ,17 ,16 ,14 ,14 ,11 ,10 ,8 ,7 ,7 ,6 ,7 ,7 ,7 ,7 ,7 ,7 
-Criminal damage and arson,South Yorkshire,24 ,24 ,28 ,31 ,30 ,27 ,23 ,19 ,15 ,14 ,13 ,12 ,11 ,13 ,14 ,14 ,13 ,14 ,13 
-Criminal damage and arson,West Yorkshire,29 ,32 ,30 ,28 ,27 ,24 ,21 ,18 ,15 ,13 ,12 ,11 ,10 ,13 ,14 ,14 ,14 ,14 ,13 
-Criminal damage and arson,East Midlands,21 ,23 ,23 ,23 ,23 ,21 ,19 ,16 ,13 ,12 ,10 ,9 ,9 ,9 ,9 ,9 ,9 ,9 ,9 
-Criminal damage and arson,Derbyshire,18 ,19 ,18 ,19 ,20 ,18 ,17 ,14 ,13 ,11 ,9 ,9 ,8 ,8 ,8 ,8 ,8 ,8 ,8 
-Criminal damage and arson,Leicestershire,21 ,21 ,20 ,19 ,20 ,19 ,17 ,15 ,13 ,12 ,9 ,9 ,8 ,9 ,9 ,9 ,10 ,9 ,10 
-Criminal damage and arson,Lincolnshire,21 ,23 ,22 ,21 ,21 ,19 ,18 ,16 ,13 ,11 ,8 ,8 ,7 ,7 ,7 ,7 ,8 ,8 ,9 
-Criminal damage and arson,Northamptonshire,25 ,27 ,26 ,25 ,24 ,22 ,20 ,17 ,14 ,13 ,12 ,10 ,10 ,10 ,10 ,9 ,9 ,9 ,9 
-Criminal damage and arson,Nottinghamshire,23 ,26 ,28 ,29 ,29 ,25 ,23 ,19 ,14 ,12 ,10 ,9 ,9 ,9 ,10 ,11 ,11 ,11 ,10 
-Criminal damage and arson,West Midlands ,21 ,22 ,21 ,21 ,21 ,17 ,16 ,14 ,12 ,11 ,9 ,9 ,8 ,9 ,9 ,9 ,9 ,9 ,9 
-Criminal damage and arson,Staffordshire,22 ,23 ,22 ,23 ,23 ,19 ,17 ,15 ,13 ,12 ,10 ,9 ,9 ,9 ,10 ,10 ,10 ,10 ,9 
-Criminal damage and arson,Warwickshire,17 ,18 ,19 ,19 ,20 ,17 ,15 ,12 ,11 ,10 ,8 ,8 ,7 ,8 ,8 ,8 ,8 ,8 ,8 
-Criminal damage and arson,West Mercia,18 ,20 ,19 ,17 ,17 ,16 ,14 ,12 ,11 ,10 ,8 ,7 ,7 ,8 ,8 ,8 ,8 ,8 ,8 
-Criminal damage and arson,West Midlands,22 ,23 ,21 ,22 ,21 ,18 ,16 ,14 ,13 ,11 ,9 ,9 ,9 ,9 ,9 ,9 ,9 ,9 ,9 
-Criminal damage and arson,East,19 ,20 ,20 ,19 ,19 ,17 ,15 ,13 ,11 ,10 ,8 ,8 ,8 ,8 ,9 ,9 ,9 ,9 ,8 
-Criminal damage and arson,Bedfordshire,18 ,19 ,18 ,19 ,18 ,17 ,15 ,13 ,13 ,11 ,10 ,9 ,9 ,9 ,8 ,9 ,9 ,9 ,9 
-Criminal damage and arson,Cambridgeshire,22 ,23 ,22 ,20 ,21 ,18 ,17 ,15 ,12 ,10 ,8 ,8 ,8 ,8 ,9 ,10 ,9 ,9 ,9 
-Criminal damage and arson,Essex,19 ,21 ,20 ,18 ,18 ,16 ,14 ,12 ,11 ,10 ,8 ,8 ,8 ,9 ,9 ,9 ,9 ,9 ,9 
-Criminal damage and arson,Hertfordshire,17 ,19 ,20 ,20 ,19 ,16 ,14 ,12 ,10 ,9 ,7 ,6 ,7 ,8 ,8 ,8 ,8 ,8 ,8 
-Criminal damage and arson,Norfolk,20 ,22 ,21 ,21 ,21 ,18 ,15 ,12 ,11 ,10 ,8 ,8 ,8 ,9 ,8 ,8 ,8 ,8 ,8 
-Criminal damage and arson,Suffolk,17 ,19 ,19 ,19 ,19 ,17 ,16 ,15 ,14 ,12 ,9 ,9 ,9 ,9 ,9 ,10 ,8 ,9 ,8 
-Criminal damage and arson,London,20 ,20 ,18 ,16 ,15 ,13 ,12 ,11 ,10 ,9 ,7 ,7 ,7 ,7 ,7 ,7 ,6 ,7 ,6 
-Criminal damage and arson,City of London,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:
-Criminal damage and arson,Metropolitan Police,20 ,20 ,18 ,16 ,15 ,13 ,12 ,11 ,10 ,9 ,7 ,7 ,7 ,7 ,7 ,7 ,6 ,7 ,6 
-Criminal damage and arson,South East,17 ,20 ,20 ,20 ,21 ,18 ,16 ,14 ,12 ,11 ,9 ,8 ,8 ,9 ,9 ,9 ,9 ,9 ,9 
-Criminal damage and arson,Hampshire,19 ,24 ,23 ,23 ,25 ,21 ,19 ,15 ,13 ,12 ,10 ,9 ,9 ,9 ,10 ,10 ,9 ,10 ,9 
-Criminal damage and arson,Kent,18 ,22 ,22 ,23 ,22 ,19 ,17 ,13 ,13 ,11 ,10 ,10 ,10 ,10 ,11 ,12 ,12 ,12 ,12 
-Criminal damage and arson,Surrey,13 ,16 ,16 ,16 ,16 ,15 ,13 ,12 ,11 ,10 ,8 ,7 ,7 ,8 ,8 ,8 ,8 ,8 ,8 
-Criminal damage and arson,Sussex,17 ,19 ,20 ,19 ,20 ,17 ,15 ,13 ,12 ,11 ,9 ,8 ,8 ,8 ,8 ,8 ,8 ,8 ,8 
-Criminal damage and arson,Thames Valley,16 ,18 ,18 ,17 ,19 ,16 ,15 ,14 ,12 ,10 ,8 ,8 ,7 ,8 ,8 ,8 ,8 ,8 ,8 
-Criminal damage and arson,South West,17 ,19 ,19 ,19 ,20 ,18 ,16 ,14 ,12 ,11 ,9 ,9 ,8 ,8 ,8 ,9 ,8 ,9 ,8 
-Criminal damage and arson,Avon and Somerset,18 ,20 ,21 ,20 ,22 ,19 ,17 ,15 ,13 ,12 ,10 ,9 ,9 ,9 ,9 ,10 ,9 ,9 ,9 
-Criminal damage and arson,Devon and Cornwall,17 ,19 ,19 ,19 ,20 ,18 ,16 ,13 ,11 ,11 ,9 ,9 ,8 ,7 ,8 ,9 ,8 ,8 ,8 
-Criminal damage and arson,Dorset,18 ,19 ,17 ,18 ,17 ,17 ,16 ,14 ,12 ,11 ,10 ,9 ,8 ,8 ,8 ,9 ,9 ,9 ,9 
-Criminal damage and arson,Gloucestershire,18 ,19 ,19 ,19 ,21 ,18 ,15 ,13 ,11 ,10 ,8 ,8 ,8 ,7 ,7 ,7 ,7 ,7 ,7 
-Criminal damage and arson,Wiltshire,15 ,15 ,14 ,15 ,18 ,17 ,15 ,13 ,11 ,10 ,9 ,8 ,8 ,8 ,8 ,9 ,8 ,8 ,8 
-Criminal damage and arson,WALES,22 ,22 ,22 ,21 ,22 ,20 ,19 ,16 ,14 ,12 ,10 ,10 ,10 ,10 ,10 ,11 ,11 ,11 ,11 
-Criminal damage and arson,Dyfed-Powys,10 ,14 ,16 ,16 ,16 ,13 ,12 ,10 ,9 ,8 ,6 ,6 ,7 ,8 ,8 ,8 ,8 ,8 ,8 
-Criminal damage and arson,Gwent,23 ,24 ,24 ,23 ,24 ,22 ,21 ,20 ,16 ,13 ,11 ,11 ,12 ,12 ,12 ,15 ,16 ,15 ,16 
-Criminal damage and arson,North Wales,26 ,25 ,22 ,21 ,22 ,19 ,17 ,15 ,13 ,13 ,11 ,10 ,10 ,11 ,10 ,11 ,11 ,11 ,11 
-Criminal damage and arson,South Wales,25 ,23 ,22 ,23 ,23 ,22 ,21 ,18 ,15 ,12 ,11 ,11 ,10 ,10 ,10 ,10 ,10 ,10 ,10 
-Other crimes against society,ENGLAND AND WALES,7 ,8 ,9 ,10 ,10 ,10 ,10 ,9 ,9 ,8 ,7 ,7 ,7 ,8 ,9 ,11 ,13 ,12 ,13 
-Other crimes against society,ENGLAND,7 ,8 ,8 ,10 ,10 ,10 ,10 ,9 ,8 ,8 ,7 ,7 ,7 ,7 ,9 ,11 ,12 ,11 ,12 
-Other crimes against society,North East,9 ,8 ,8 ,10 ,11 ,9 ,9 ,8 ,8 ,7 ,6 ,6 ,6 ,7 ,11 ,16 ,18 ,17 ,18 
-Other crimes against society,Cleveland,7 ,7 ,9 ,11 ,13 ,13 ,11 ,11 ,9 ,8 ,7 ,7 ,8 ,7 ,8 ,9 ,13 ,10 ,14 
-Other crimes against society,Durham,6 ,6 ,6 ,8 ,9 ,8 ,7 ,7 ,6 ,6 ,5 ,6 ,5 ,6 ,8 ,13 ,14 ,14 ,13 
-Other crimes against society,Northumbria,11 ,10 ,9 ,10 ,11 ,9 ,9 ,8 ,7 ,7 ,7 ,6 ,6 ,8 ,13 ,20 ,22 ,21 ,21 
-Other crimes against society,North West,7 ,8 ,9 ,12 ,11 ,11 ,11 ,10 ,10 ,9 ,7 ,7 ,7 ,7 ,10 ,17 ,19 ,18 ,18 
-Other crimes against society,Cheshire,5 ,5 ,5 ,7 ,6 ,6 ,7 ,7 ,7 ,6 ,6 ,6 ,6 ,6 ,13 ,21 ,21 ,22 ,20 
-Other crimes against society,Cumbria,6 ,7 ,9 ,10 ,9 ,9 ,9 ,8 ,8 ,8 ,6 ,6 ,7 ,7 ,6 ,7 ,11 ,8 ,11 
-Other crimes against society,Greater Manchester,8 ,9 ,11 ,13 ,14 ,13 ,12 ,10 ,10 ,9 ,7 ,7 ,7 ,9 ,13 ,24 ,22 ,24 ,21 
-Other crimes against society,Lancashire,7 ,7 ,8 ,8 ,7 ,7 ,7 ,7 ,7 ,6 ,6 ,5 ,5 ,4 ,5 ,7 ,15 ,10 ,14 
-Other crimes against society,Merseyside,8 ,9 ,12 ,18 ,14 ,15 ,17 ,17 ,16 ,14 ,11 ,11 ,10 ,9 ,11 ,14 ,18 ,15 ,18 
-Other crimes against society,Yorkshire and The Humber,6 ,9 ,9 ,10 ,9 ,9 ,8 ,8 ,7 ,7 ,6 ,6 ,6 ,7 ,10 ,13 ,16 ,13 ,16 
-Other crimes against society,Humberside,8 ,13 ,11 ,10 ,11 ,12 ,11 ,8 ,8 ,8 ,7 ,7 ,6 ,6 ,8 ,9 ,15 ,11 ,16 
-Other crimes against society,North Yorkshire,6 ,7 ,8 ,7 ,6 ,8 ,6 ,5 ,6 ,5 ,5 ,5 ,5 ,5 ,5 ,5 ,6 ,5 ,6 
-Other crimes against society,South Yorkshire,7 ,6 ,7 ,10 ,9 ,9 ,9 ,8 ,7 ,6 ,6 ,6 ,6 ,6 ,9 ,13 ,15 ,14 ,15 
-Other crimes against society,West Yorkshire,6 ,9 ,9 ,11 ,9 ,8 ,8 ,8 ,7 ,7 ,7 ,6 ,6 ,9 ,13 ,16 ,20 ,17 ,20 
-Other crimes against society,East Midlands,6 ,7 ,7 ,8 ,8 ,8 ,8 ,7 ,7 ,6 ,5 ,5 ,6 ,5 ,6 ,7 ,10 ,8 ,10 
-Other crimes against society,Derbyshire,6 ,6 ,6 ,6 ,5 ,6 ,5 ,5 ,6 ,5 ,5 ,5 ,5 ,5 ,5 ,5 ,6 ,5 ,7 
-Other crimes against society,Leicestershire,7 ,7 ,8 ,10 ,10 ,9 ,9 ,10 ,8 ,7 ,6 ,5 ,5 ,4 ,6 ,8 ,11 ,9 ,12 
-Other crimes against society,Lincolnshire,6 ,6 ,7 ,9 ,8 ,8 ,8 ,7 ,6 ,6 ,5 ,5 ,5 ,6 ,5 ,6 ,9 ,6 ,10 
-Other crimes against society,Northamptonshire,5 ,5 ,6 ,6 ,6 ,6 ,6 ,6 ,6 ,6 ,5 ,5 ,6 ,6 ,5 ,6 ,8 ,6 ,8 
-Other crimes against society,Nottinghamshire,7 ,8 ,8 ,9 ,10 ,10 ,10 ,9 ,9 ,7 ,6 ,6 ,7 ,6 ,8 ,10 ,13 ,11 ,13 
-Other crimes against society,West Midlands ,8 ,8 ,8 ,9 ,9 ,8 ,8 ,7 ,6 ,6 ,6 ,6 ,5 ,6 ,7 ,7 ,8 ,7 ,8 
-Other crimes against society,Staffordshire,7 ,8 ,8 ,9 ,10 ,8 ,7 ,7 ,7 ,7 ,6 ,6 ,5 ,6 ,7 ,8 ,8 ,8 ,8 
-Other crimes against society,Warwickshire,4 ,4 ,5 ,6 ,8 ,7 ,6 ,6 ,6 ,4 ,4 ,4 ,4 ,5 ,7 ,7 ,8 ,7 ,7 
-Other crimes against society,West Mercia,7 ,7 ,7 ,6 ,6 ,6 ,6 ,6 ,5 ,6 ,5 ,5 ,5 ,6 ,7 ,7 ,7 ,7 ,7 
-Other crimes against society,West Midlands,10 ,10 ,9 ,11 ,10 ,9 ,9 ,8 ,7 ,7 ,6 ,6 ,6 ,6 ,6 ,7 ,9 ,8 ,9 
-Other crimes against society,East,5 ,6 ,7 ,7 ,8 ,7 ,7 ,7 ,7 ,6 ,6 ,6 ,6 ,7 ,8 ,9 ,11 ,10 ,11 
-Other crimes against society,Bedfordshire,6 ,7 ,8 ,8 ,7 ,6 ,6 ,6 ,6 ,6 ,6 ,6 ,6 ,6 ,6 ,7 ,11 ,7 ,11 
-Other crimes against society,Cambridgeshire,7 ,7 ,7 ,7 ,7 ,8 ,7 ,7 ,7 ,7 ,6 ,6 ,6 ,6 ,8 ,8 ,9 ,8 ,9 
-Other crimes against society,Essex,5 ,6 ,6 ,7 ,7 ,7 ,7 ,6 ,6 ,6 ,5 ,6 ,6 ,6 ,8 ,10 ,13 ,10 ,13 
-Other crimes against society,Hertfordshire,4 ,5 ,6 ,7 ,9 ,8 ,8 ,9 ,8 ,8 ,7 ,7 ,7 ,7 ,9 ,10 ,10 ,10 ,10 
-Other crimes against society,Norfolk,6 ,6 ,7 ,7 ,7 ,6 ,6 ,5 ,5 ,5 ,5 ,6 ,8 ,8 ,9 ,10 ,12 ,10 ,12 
-Other crimes against society,Suffolk,7 ,8 ,8 ,8 ,8 ,9 ,9 ,8 ,7 ,7 ,7 ,6 ,7 ,8 ,8 ,10 ,11 ,10 ,11 
-Other crimes against society,London,11 ,11 ,12 ,13 ,14 ,16 ,17 ,15 ,14 ,13 ,11 ,11 ,11 ,12 ,12 ,12 ,12 ,12 ,12 
-Other crimes against society,City of London,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:
-Other crimes against society,Metropolitan Police,11 ,11 ,12 ,13 ,14 ,16 ,17 ,15 ,14 ,13 ,11 ,11 ,11 ,12 ,12 ,12 ,12 ,11 ,12 
-Other crimes against society,South East,5 ,6 ,7 ,8 ,9 ,9 ,8 ,7 ,7 ,6 ,6 ,6 ,6 ,7 ,8 ,10 ,11 ,10 ,11 
-Other crimes against society,Hampshire,6 ,9 ,10 ,9 ,10 ,10 ,9 ,8 ,8 ,8 ,7 ,7 ,8 ,10 ,11 ,12 ,12 ,12 ,12 
-Other crimes against society,Kent,5 ,5 ,4 ,5 ,6 ,6 ,6 ,5 ,5 ,4 ,4 ,5 ,4 ,4 ,6 ,13 ,17 ,16 ,15 
-Other crimes against society,Surrey,4 ,4 ,5 ,5 ,7 ,8 ,7 ,7 ,7 ,7 ,6 ,6 ,6 ,7 ,9 ,10 ,11 ,10 ,11 
-Other crimes against society,Sussex,5 ,5 ,7 ,9 ,9 ,9 ,6 ,7 ,7 ,6 ,6 ,5 ,7 ,8 ,10 ,10 ,11 ,10 ,11 
-Other crimes against society,Thames Valley,6 ,6 ,8 ,9 ,10 ,10 ,10 ,8 ,9 ,7 ,6 ,6 ,5 ,5 ,5 ,5 ,7 ,6 ,7 
-Other crimes against society,South West,6 ,6 ,7 ,8 ,8 ,7 ,7 ,7 ,7 ,7 ,6 ,6 ,6 ,7 ,8 ,9 ,9 ,9 ,9 
-Other crimes against society,Avon and Somerset,6 ,7 ,8 ,10 ,11 ,9 ,9 ,9 ,10 ,10 ,8 ,9 ,7 ,10 ,14 ,14 ,14 ,14 ,14 
-Other crimes against society,Devon and Cornwall,6 ,6 ,6 ,7 ,7 ,7 ,7 ,7 ,7 ,7 ,7 ,7 ,6 ,6 ,6 ,8 ,8 ,8 ,8 
-Other crimes against society,Dorset,5 ,5 ,7 ,7 ,7 ,7 ,6 ,6 ,5 ,5 ,4 ,4 ,4 ,5 ,6 ,6 ,7 ,6 ,7 
-Other crimes against society,Gloucestershire,6 ,6 ,6 ,8 ,8 ,8 ,8 ,7 ,5 ,5 ,5 ,4 ,3 ,4 ,4 ,5 ,5 ,5 ,5 
-Other crimes against society,Wiltshire,5 ,5 ,5 ,6 ,5 ,4 ,5 ,5 ,4 ,4 ,4 ,4 ,4 ,7 ,7 ,6 ,7 ,7 ,7 
-Other crimes against society,WALES,10 ,9 ,9 ,9 ,10 ,10 ,10 ,10 ,9 ,9 ,8 ,8 ,8 ,8 ,9 ,11 ,14 ,12 ,14 
-Other crimes against society,Dyfed-Powys,12 ,10 ,10 ,11 ,11 ,9 ,9 ,9 ,9 ,10 ,10 ,9 ,8 ,7 ,7 ,7 ,9 ,7 ,9 
-Other crimes against society,Gwent,14 ,12 ,11 ,9 ,11 ,10 ,10 ,9 ,8 ,9 ,7 ,7 ,7 ,8 ,9 ,13 ,19 ,15 ,19 
-Other crimes against society,North Wales,7 ,7 ,8 ,9 ,11 ,10 ,11 ,10 ,8 ,7 ,6 ,6 ,6 ,6 ,6 ,9 ,12 ,10 ,13 
-Other crimes against society,South Wales,9 ,9 ,9 ,9 ,9 ,11 ,11 ,11 ,10 ,9 ,8 ,8 ,9 ,10 ,12 ,13 ,14 ,13 ,14
+Total recorded crime,E12000001,North East,112.19 ,108.13 ,99.64 ,99.61 ,97.28 ,86.78 ,79.43 ,68.22 ,62.22 ,58.94 ,52.38 ,54.51 ,56.63 ,68.07 ,84.46 ,102.93 ,110.30 ,1401.73 ,
+Total recorded crime,E12000002,North West,114.89 ,118.53 ,112.20 ,112.63 ,107.96 ,95.05 ,89.15 ,78.94 ,73.59 ,68.74 ,62.66 ,63.53 ,65.96 ,70.51 ,80.34 ,98.63 ,106.07 ,1519.39 ,
+Total recorded crime,E12000003,Yorkshire and The Humber,132.88 ,133.51 ,115.24 ,115.92 ,111.57 ,100.29 ,93.04 ,82.31 ,77.78 ,74.42 ,66.64 ,66.12 ,65.98 ,76.76 ,88.08 ,98.27 ,108.04 ,1606.85 ,
+Total recorded crime,E12000004,East Midlands,114.75 ,113.56 ,104.33 ,99.48 ,97.97 ,91.62 ,86.13 ,77.54 ,69.50 ,65.83 ,57.34 ,56.65 ,57.53 ,58.16 ,63.57 ,70.06 ,78.20 ,1362.19 ,
+Total recorded crime,E12000005,West Midlands ,111.27 ,110.01 ,96.47 ,94.97 ,92.91 ,83.52 ,77.42 ,70.38 ,69.67 ,64.07 ,56.26 ,56.76 ,57.29 ,62.64 ,69.91 ,76.22 ,80.76 ,1330.53 ,
+Total recorded crime,E12000006,East,87.73 ,89.89 ,85.17 ,82.89 ,80.38 ,73.63 ,68.68 ,63.42 ,61.41 ,58.73 ,52.64 ,51.72 ,54.43 ,59.28 ,64.51 ,71.77 ,78.07 ,1184.34 ,
+Total recorded crime,E12000007,London,142.12 ,138.87 ,132.33 ,129.29 ,120.36 ,112.34 ,108.13 ,104.13 ,101.61 ,98.89 ,91.33 ,84.75 ,83.90 ,86.97 ,89.39 ,93.66 ,98.04 ,1816.12 ,
+Total recorded crime,E12000008,South East,83.60 ,88.96 ,87.40 ,87.49 ,88.74 ,81.14 ,76.47 ,69.95 ,66.25 ,61.59 ,55.29 ,53.98 ,55.02 ,59.72 ,65.82 ,74.44 ,78.83 ,1234.69 ,
+Total recorded crime,E12000009,South West,90.78 ,89.27 ,86.14 ,83.74 ,84.13 ,76.33 ,71.66 ,64.94 ,61.29 ,60.28 ,53.71 ,52.74 ,51.28 ,56.34 ,62.56 ,67.10 ,67.73 ,1180.03 ,
+Total recorded crime,W92000004,WALES,99.13 ,97.10 ,89.32 ,85.92 ,86.00 ,80.77 ,77.73 ,72.32 ,66.14 ,61.69 ,56.85 ,56.18 ,58.91 ,61.08 ,66.29 ,74.21 ,82.45 ,1272.08 ,
+Violence against the person,E12000001,North East,12.42 ,13.00 ,13.17 ,14.09 ,13.91 ,12.19 ,11.26 ,10.10 ,9.56 ,8.46 ,7.67 ,8.30 ,10.60 ,16.11 ,23.04 ,30.24 ,35.91 ,250.01 ,
+Violence against the person,E12000002,North West,13.02 ,15.86 ,16.55 ,15.83 ,14.69 ,13.09 ,12.08 ,11.37 ,11.01 ,10.87 ,10.48 ,11.02 ,13.96 ,17.27 ,21.22 ,28.81 ,35.39 ,272.51 ,
+Violence against the person,E12000003,Yorkshire and The Humber,11.60 ,14.86 ,16.14 ,17.52 ,16.46 ,14.05 ,12.63 ,11.66 ,10.83 ,9.78 ,9.20 ,9.98 ,12.15 ,17.88 ,23.39 ,28.80 ,36.92 ,273.85 ,
+Violence against the person,E12000004,East Midlands,13.60 ,15.05 ,15.83 ,15.24 ,14.89 ,14.02 ,13.14 ,12.90 ,11.93 ,11.35 ,10.36 ,10.18 ,11.88 ,13.62 ,15.79 ,18.39 ,24.21 ,242.36 ,
+Violence against the person,E12000005,West Midlands ,15.57 ,17.04 ,16.17 ,15.85 ,16.00 ,14.58 ,13.46 ,13.27 ,12.37 ,10.77 ,10.37 ,11.20 ,12.84 ,17.02 ,19.63 ,21.92 ,25.93 ,263.99 ,
+Violence against the person,E12000006,East,10.44 ,12.17 ,12.93 ,11.86 ,11.12 ,10.14 ,9.46 ,9.91 ,9.98 ,9.94 ,9.16 ,9.63 ,12.25 ,15.58 ,17.85 ,21.00 ,25.46 ,218.89 ,
+Violence against the person,E12000007,London,20.85 ,21.40 ,22.65 ,21.92 ,19.95 ,18.42 ,18.16 ,18.24 ,17.12 ,15.79 ,15.34 ,15.55 ,19.22 ,21.80 ,22.27 ,22.94 ,24.51 ,336.12 ,
+Violence against the person,E12000008,South East,9.87 ,11.66 ,13.15 ,13.56 ,14.27 ,13.61 ,12.67 ,12.45 ,11.64 ,10.42 ,9.74 ,10.40 ,12.75 ,16.78 ,19.38 ,23.28 ,27.15 ,242.79 ,
+Violence against the person,E12000009,South West,11.39 ,12.87 ,14.14 ,13.50 ,13.34 ,12.25 ,11.53 ,11.23 ,10.51 ,10.48 ,9.90 ,10.26 ,11.67 ,15.28 ,18.16 ,20.74 ,22.92 ,230.18 ,
+Violence against the person,W92000004,WALES,13.88 ,14.02 ,13.96 ,13.70 ,13.15 ,12.00 ,11.45 ,11.31 ,10.56 ,9.93 ,10.14 ,11.17 ,13.87 ,16.77 ,20.20 ,24.01 ,29.62 ,249.74 ,
+Sexual offences,E12000001,North East,0.98 ,1.06 ,1.01 ,1.10 ,0.93 ,0.84 ,0.78 ,0.81 ,0.83 ,0.78 ,0.69 ,1.00 ,1.51 ,1.99 ,2.35 ,3.12 ,3.28 ,23.06 ,
+Sexual offences,E12000002,North West,1.04 ,1.20 ,1.15 ,1.10 ,0.99 ,0.92 ,0.83 ,0.89 ,0.94 ,0.94 ,0.97 ,1.12 ,1.53 ,1.83 ,2.16 ,2.95 ,3.17 ,23.71 ,
+Sexual offences,E12000003,Yorkshire and The Humber,0.98 ,1.14 ,1.12 ,1.17 ,1.06 ,0.95 ,0.86 ,0.90 ,0.89 ,0.83 ,0.97 ,1.19 ,1.76 ,2.13 ,2.44 ,3.03 ,3.27 ,24.67 ,
+Sexual offences,E12000004,East Midlands,1.13 ,1.14 ,1.21 ,1.15 ,1.07 ,1.04 ,1.02 ,1.02 ,1.05 ,0.89 ,0.92 ,1.00 ,1.45 ,1.68 ,1.92 ,2.30 ,2.66 ,22.65 ,
+Sexual offences,E12000005,West Midlands ,1.08 ,1.14 ,1.17 ,1.12 ,1.07 ,0.99 ,0.93 ,0.99 ,0.95 ,0.94 ,0.98 ,1.14 ,1.45 ,1.85 ,2.12 ,2.54 ,2.65 ,23.10 ,
+Sexual offences,E12000006,East,0.93 ,1.01 ,0.94 ,1.07 ,0.85 ,0.77 ,0.75 ,0.78 ,0.82 ,0.85 ,0.80 ,0.98 ,1.40 ,1.68 ,1.77 ,2.18 ,2.45 ,20.03 ,
+Sexual offences,E12000007,London,1.51 ,1.43 ,1.36 ,1.28 ,1.19 ,1.11 ,1.11 ,1.24 ,1.26 ,1.25 ,1.18 ,1.35 ,1.76 ,1.89 ,2.04 ,2.26 ,2.33 ,25.55 ,
+Sexual offences,E12000008,South East,0.93 ,1.04 ,1.14 ,1.12 ,1.08 ,0.97 ,0.94 ,0.93 ,0.92 ,0.85 ,0.83 ,1.05 ,1.51 ,1.83 ,2.09 ,2.56 ,2.76 ,22.56 ,
+Sexual offences,E12000009,South West,1.00 ,1.05 ,1.05 ,1.00 ,0.99 ,0.93 ,0.89 ,0.96 ,0.94 ,0.95 ,0.96 ,1.12 ,1.43 ,1.72 ,2.02 ,2.39 ,2.42 ,21.82 ,
+Sexual offences,W92000004,WALES,0.83 ,0.85 ,0.89 ,0.91 ,0.82 ,0.86 ,0.81 ,0.81 ,0.80 ,0.82 ,0.94 ,1.09 ,1.42 ,1.70 ,2.06 ,2.75 ,2.79 ,21.17 ,
+Robbery,E12000001,North East,1.25 ,1.12 ,0.89 ,0.81 ,0.73 ,0.58 ,0.51 ,0.40 ,0.38 ,0.35 ,0.33 ,0.32 ,0.34 ,0.39 ,0.50 ,0.58 ,0.62 ,10.09 ,
+Robbery,E12000002,North West,2.35 ,2.01 ,1.68 ,1.75 ,1.79 ,1.55 ,1.48 ,1.26 ,1.06 ,0.95 ,0.87 ,0.88 ,0.78 ,0.78 ,0.98 ,1.35 ,1.50 ,23.02 ,
+Robbery,E12000003,Yorkshire and The Humber,1.85 ,1.49 ,0.98 ,1.03 ,1.22 ,1.08 ,1.00 ,0.88 ,0.82 ,0.75 ,0.67 ,0.67 ,0.69 ,0.76 ,0.88 ,1.06 ,1.26 ,17.08 ,
+Robbery,E12000004,East Midlands,1.58 ,1.56 ,1.24 ,1.26 ,1.34 ,1.13 ,1.22 ,1.08 ,0.87 ,0.78 ,0.66 ,0.70 ,0.66 ,0.63 ,0.69 ,0.80 ,0.86 ,17.06 ,
+Robbery,E12000005,West Midlands ,2.32 ,2.34 ,2.03 ,1.97 ,2.05 ,1.71 ,1.74 ,1.58 ,1.88 ,1.53 ,1.18 ,1.15 ,1.07 ,1.08 ,1.28 ,1.60 ,1.85 ,28.36 ,
+Robbery,E12000006,East,0.91 ,0.92 ,0.83 ,0.87 ,0.92 ,0.79 ,0.79 ,0.65 ,0.66 ,0.61 ,0.54 ,0.49 ,0.47 ,0.51 ,0.62 ,0.75 ,0.87 ,12.20 ,
+Robbery,E12000007,London,5.81 ,5.52 ,5.28 ,6.10 ,6.09 ,4.88 ,4.24 ,4.29 ,4.52 ,4.83 ,4.24 ,3.41 ,2.60 ,2.53 ,2.79 ,3.74 ,3.90 ,74.77 ,
+Robbery,E12000008,South East,0.81 ,0.81 ,0.72 ,0.73 ,0.78 ,0.68 ,0.72 ,0.65 ,0.63 ,0.55 ,0.44 ,0.42 ,0.38 ,0.41 ,0.48 ,0.59 ,0.73 ,10.53 ,
+Robbery,E12000009,South West,1.11 ,0.96 ,0.75 ,0.72 ,0.71 ,0.65 ,0.66 ,0.55 ,0.50 ,0.46 ,0.36 ,0.30 ,0.36 ,0.37 ,0.44 ,0.51 ,0.57 ,9.98 ,
+Robbery,W92000004,WALES,0.47 ,0.44 ,0.37 ,0.38 ,0.46 ,0.42 ,0.40 ,0.33 ,0.31 ,0.26 ,0.24 ,0.23 ,0.22 ,0.24 ,0.24 ,0.31 ,0.36 ,5.70 ,
+Theft offences,E12000001,North East,60.76 ,55.70 ,47.81 ,45.70 ,43.27 ,39.70 ,36.96 ,31.49 ,29.91 ,29.76 ,26.36 ,27.57 ,26.77 ,29.43 ,33.03 ,36.87 ,36.62 ,637.70 ,
+Theft offences,E12000002,North West,65.92 ,63.15 ,55.26 ,53.58 ,51.65 ,45.79 ,43.61 ,38.36 ,36.74 ,34.46 ,31.98 ,32.79 ,31.81 ,31.72 ,33.60 ,35.70 ,35.18 ,721.30 ,
+Theft offences,E12000003,Yorkshire and The Humber,86.24 ,79.03 ,60.63 ,59.03 ,56.98 ,52.05 ,49.77 ,43.94 ,43.61 ,43.26 ,38.43 ,37.86 ,35.39 ,36.98 ,38.86 ,39.81 ,38.36 ,840.23 ,
+Theft offences,E12000004,East Midlands,70.57 ,66.25 ,55.99 ,51.10 ,49.69 ,46.56 ,44.14 ,38.86 ,35.11 ,34.64 ,30.47 ,30.52 ,29.32 ,28.09 ,30.36 ,32.33 ,31.62 ,705.62 ,
+Theft offences,E12000005,West Midlands ,63.35 ,59.21 ,48.38 ,46.21 ,44.05 ,40.59 ,37.89 ,33.90 ,35.73 ,33.66 ,29.16 ,29.05 ,28.29 ,28.01 ,31.16 ,33.78 ,33.30 ,655.71 ,
+Theft offences,E12000006,East,51.16 ,49.02 ,43.66 ,42.65 ,40.77 ,37.73 ,35.44 ,32.48 ,31.86 ,30.77 ,27.86 ,26.78 ,26.05 ,26.22 ,27.49 ,29.54 ,29.72 ,589.19 ,
+Theft offences,E12000007,London,83.49 ,79.69 ,73.06 ,70.77 ,64.09 ,58.19 ,55.29 ,53.96 ,54.58 ,55.10 ,52.33 ,46.89 ,42.12 ,41.81 ,43.45 ,46.23 ,48.94 ,970.00 ,
+Theft offences,E12000008,South East,49.77 ,49.49 ,45.32 ,44.36 ,43.56 ,39.25 ,38.16 ,35.03 ,34.02 ,32.72 ,29.40 ,27.98 ,26.04 ,25.25 ,26.92 ,28.72 ,27.80 ,603.76 ,
+Theft offences,E12000009,South West,54.51 ,49.54 ,44.65 ,41.79 ,41.05 ,37.46 ,35.48 ,31.66 ,30.57 ,30.67 ,26.84 ,25.99 ,24.13 ,24.28 ,25.14 ,25.69 ,24.09 ,573.54 ,
+Theft offences,W92000004,WALES,51.28 ,50.00 ,43.23 ,40.33 ,39.58 ,37.18 ,35.95 ,33.66 ,31.57 ,30.15 ,27.43 ,26.28 ,25.93 ,24.12 ,24.61 ,25.44 ,25.25 ,571.99 ,
+Criminal damage and arson,E12000001,North East,27.73 ,28.82 ,28.66 ,28.03 ,27.75 ,24.15 ,20.93 ,17.25 ,13.98 ,12.41 ,10.99 ,10.97 ,11.30 ,13.00 ,14.71 ,16.26 ,15.78 ,322.70 ,
+Criminal damage and arson,E12000002,North West,25.62 ,28.52 ,28.17 ,28.58 ,27.71 ,22.87 ,20.29 ,16.93 ,14.05 ,12.77 ,10.99 ,10.70 ,10.61 ,11.45 ,12.09 ,12.98 ,12.01 ,306.35 ,
+Criminal damage and arson,E12000003,Yorkshire and The Humber,25.80 ,28.28 ,27.75 ,27.27 ,26.73 ,23.25 ,20.65 ,17.24 ,14.51 ,13.06 ,11.23 ,10.59 ,10.17 ,11.87 ,12.70 ,13.02 ,12.51 ,306.63 ,
+Criminal damage and arson,E12000004,East Midlands,21.46 ,22.88 ,22.82 ,22.79 ,23.07 ,20.83 ,18.89 ,16.19 ,13.38 ,11.94 ,9.50 ,8.89 ,8.65 ,8.79 ,8.78 ,8.99 ,9.17 ,257.01 ,
+Criminal damage and arson,E12000005,West Midlands ,20.76 ,21.79 ,20.65 ,20.71 ,20.65 ,17.43 ,15.66 ,13.54 ,12.32 ,10.90 ,8.80 ,8.62 ,8.26 ,8.60 ,8.88 ,9.01 ,8.81 ,235.38 ,
+Criminal damage and arson,E12000006,East,18.81 ,20.49 ,19.98 ,19.41 ,19.21 ,16.86 ,14.84 ,12.87 ,11.47 ,10.17 ,8.40 ,7.80 ,7.98 ,8.47 ,8.53 ,8.86 ,8.53 ,222.69 ,
+Criminal damage and arson,E12000007,London,19.63 ,19.90 ,18.23 ,16.34 ,15.06 ,13.41 ,12.28 ,11.19 ,10.01 ,8.96 ,7.20 ,6.71 ,6.97 ,7.24 ,7.23 ,6.85 ,6.44 ,193.65 ,
+Criminal damage and arson,E12000008,South East,16.97 ,19.87 ,19.99 ,19.83 ,20.55 ,17.89 ,16.10 ,13.61 ,11.99 ,10.64 ,8.96 ,8.39 ,8.28 ,8.65 ,9.01 ,9.42 ,9.21 ,229.37 ,
+Criminal damage and arson,E12000009,South West,17.06 ,18.72 ,18.75 ,18.83 ,20.03 ,17.91 ,16.00 ,13.53 ,11.84 ,10.88 ,9.38 ,8.65 ,8.14 ,8.11 ,8.40 ,8.82 ,8.49 ,223.54 ,
+Criminal damage and arson,W92000004,WALES,22.49 ,22.45 ,21.68 ,21.44 ,21.77 ,19.90 ,18.75 ,16.17 ,13.64 ,11.78 ,10.22 ,9.84 ,9.79 ,10.19 ,10.14 ,10.82 ,10.85 ,261.92 ,
+Other crimes against society,E12000001,North East,9.06 ,8.43 ,8.09 ,9.88 ,10.69 ,9.33 ,9.00 ,8.18 ,7.57 ,7.19 ,6.34 ,6.35 ,6.12 ,7.15 ,10.85 ,15.87 ,18.09 ,158.18 ,
+Other crimes against society,E12000002,North West,6.95 ,7.79 ,9.38 ,11.80 ,11.14 ,10.83 ,10.85 ,10.13 ,9.78 ,8.76 ,7.37 ,7.02 ,7.28 ,7.46 ,10.30 ,16.83 ,18.83 ,172.50 ,
+Other crimes against society,E12000003,Yorkshire and The Humber,6.40 ,8.72 ,8.61 ,9.90 ,9.11 ,8.93 ,8.15 ,7.69 ,7.13 ,6.73 ,6.15 ,5.83 ,5.83 ,7.14 ,9.81 ,12.55 ,15.72 ,144.39 ,
+Other crimes against society,E12000004,East Midlands,6.42 ,6.68 ,7.25 ,7.94 ,7.92 ,8.04 ,7.71 ,7.50 ,7.15 ,6.23 ,5.42 ,5.35 ,5.58 ,5.35 ,6.04 ,7.24 ,9.67 ,117.49 ,
+Other crimes against society,E12000005,West Midlands ,8.20 ,8.49 ,8.06 ,9.11 ,9.10 ,8.22 ,7.74 ,7.10 ,6.41 ,6.27 ,5.77 ,5.62 ,5.38 ,6.08 ,6.84 ,7.39 ,8.22 ,123.99 ,
+Other crimes against society,E12000006,East,5.47 ,6.29 ,6.84 ,7.02 ,7.50 ,7.34 ,7.40 ,6.73 ,6.61 ,6.40 ,5.88 ,6.03 ,6.27 ,6.82 ,8.25 ,9.44 ,11.05 ,121.34 ,
+Other crimes against society,E12000007,London,10.83 ,10.95 ,11.75 ,12.88 ,13.97 ,16.32 ,17.04 ,15.21 ,14.11 ,12.95 ,11.04 ,10.85 ,11.24 ,11.70 ,11.62 ,11.65 ,11.92 ,216.04 ,
+Other crimes against society,E12000008,South East,5.25 ,6.09 ,7.07 ,7.91 ,8.51 ,8.75 ,7.88 ,7.27 ,7.06 ,6.40 ,5.91 ,5.74 ,6.07 ,6.80 ,7.94 ,9.87 ,11.18 ,125.68 ,
+Other crimes against society,E12000009,South West,5.71 ,6.14 ,6.80 ,7.91 ,8.02 ,7.13 ,7.10 ,7.00 ,6.93 ,6.82 ,6.27 ,6.42 ,5.56 ,6.59 ,8.40 ,8.95 ,9.24 ,120.97 ,
+Other crimes against society,W92000004,WALES,10.17 ,9.34 ,9.20 ,9.16 ,10.23 ,10.40 ,10.37 ,10.03 ,9.26 ,8.74 ,7.89 ,7.56 ,7.68 ,8.06 ,9.03 ,10.87 ,13.59 ,161.56 ,

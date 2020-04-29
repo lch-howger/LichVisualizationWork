@@ -17,7 +17,7 @@ public class FileUtil {
             int count = 0;
             while ((line = reader.readLine()) != null) {
                 String[] split = line.split(",");
-                if (split.length == 22 && !split[2].equals(":")) {
+                if (split.length == 20 && !split[2].equals(":")) {
                     String type = split[0].trim();
                     String code = split[1].trim();
                     String place = split[2].trim();
@@ -33,7 +33,7 @@ public class FileUtil {
                     if (!placeList.contains(place)) {
                         placeList.add(place);
                     }
-                    for (int i = 3; i < split.length-2; i++) {
+                    for (int i = 3; i < split.length; i++) {
                         String time = getTime(i);
                         Score score = new Score(
                                 "" + count,

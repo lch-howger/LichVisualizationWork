@@ -50,7 +50,6 @@ public class ChartBoxPlace {
 
         HashMap<String, XYChart.Series> map = new HashMap<>();
         for (String place : placeList) {
-            System.out.println(place);
             if (ListUtil.containsPlace(place)) {
                 XYChart.Series series = new XYChart.Series();
                 series.setName(place);

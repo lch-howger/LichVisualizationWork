@@ -20,7 +20,7 @@ public class StringUtil {
 
     public static String toString(double d) {
         BigDecimal bigDecimal = new BigDecimal(d);
-        bigDecimal = bigDecimal.setScale(2, RoundingMode.HALF_UP);
+        bigDecimal = bigDecimal.setScale(3, RoundingMode.HALF_UP);
         return bigDecimal.toString();
     }
 }

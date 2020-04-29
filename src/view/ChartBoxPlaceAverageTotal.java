@@ -1,5 +1,6 @@
 package view;
 
+import javafx.collections.transformation.SortedList;
 import javafx.scene.Scene;
 import javafx.scene.chart.BarChart;
 import javafx.scene.chart.CategoryAxis;
@@ -9,10 +10,13 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import model.Score;
+import util.ListUtil;
 import util.ParseUtil;
+import util.SortUtil;
 import util.StringUtil;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 
@@ -51,6 +55,8 @@ public class ChartBoxPlaceAverageTotal {
                 totalScore = 0;
             }
         }
+
+        SortUtil.sort(list);
     }
 
     public void display() {

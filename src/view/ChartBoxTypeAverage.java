@@ -10,6 +10,7 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import model.Score;
 import util.ParseUtil;
+import util.SortUtil;
 import util.StringUtil;
 
 import java.util.ArrayList;
@@ -43,6 +44,8 @@ public class ChartBoxTypeAverage {
                 totalScore = 0;
             }
         }
+
+        SortUtil.sort(list);
     }
 
     public void display() {

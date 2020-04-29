@@ -161,7 +161,7 @@ public class Main extends Application {
 
     private void initRightView(VBox vBox, int id) {
         if (id == 0) {
-            Label label = new Label("View Chart of Offence Group");
+            Label label = new Label("View Chart of Offence Group from 2002 to 2018");
 
             ChoiceBox<String> choiceBox = new ChoiceBox<>();
             for (String s : typeList) {
@@ -217,7 +217,7 @@ public class Main extends Application {
             vBox.setPadding(new Insets(20, 20, 60, 20));
 
         } else if (id == 1) {
-            Label label = new Label("View Chart of Regions");
+            Label label = new Label("View Chart of Regions from 2002 to 2018");
 
             ChoiceBox<String> choiceBox = new ChoiceBox<>();
             for (String s : placeList) {
@@ -248,13 +248,13 @@ public class Main extends Application {
                 chartBox.display();
             });
 
-            Label text2 = new Label(StringValue.all_average);
+            Label text2 = new Label(StringValue.all_average2);
             text2.setPadding(new Insets(30, 0, 0, 0));
 
-            Button viewChart3 = new Button("View Annual Average Chart of All Groups");
+            Button viewChart3 = new Button("View Annual Average Chart of All Regions");
             viewChart3.setOnAction(actionEvent -> {
                 String type = choiceBox2.getValue();
-                ChartBoxPlaceAverageAll chartBox = new ChartBoxPlaceAverageAll(typeList, placeList, scoreList, type);
+                ChartBoxTypeAverageAll chartBox = new ChartBoxTypeAverageAll(typeList, placeList, scoreList, type);
                 chartBox.display();
             });
 
