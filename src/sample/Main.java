@@ -8,11 +8,18 @@ import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.Menu;
+import javafx.scene.control.MenuBar;
+import javafx.scene.control.MenuItem;
+import javafx.scene.control.ScrollPane;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
 import model.Rate;
 import model.Score;
+import util.AlertUtil;
 import util.FileUtil;
 import view.*;
 
@@ -55,7 +62,10 @@ public class Main extends Application {
         VBox left = initLeft();
         right = initRight();
         resetLeftItem("0");
-        hBox.getChildren().addAll(left, right);
+
+        ScrollPane scrollPane = new ScrollPane();
+        scrollPane.setContent(right);
+        hBox.getChildren().addAll(left, scrollPane);
         layout.setCenter(hBox);
 
         return layout;
@@ -118,7 +128,6 @@ public class Main extends Application {
     private VBox initRightItem(int id) {
         VBox vBox = new VBox();
         vBox.setPrefWidth(800);
-        vBox.setPrefHeight(600);
         vBox.setId("" + rightItems.size());
         initRightView(vBox, id);
         rightItems.add(vBox);
@@ -205,7 +214,8 @@ public class Main extends Application {
 
             vBox.getChildren().addAll(label, choiceBox, viewChart, text, choiceBox2, viewChart2, text2, viewChart3, text3, viewChart4);
             vBox.setSpacing(10);
-            vBox.setPadding(new Insets(20, 20, 20, 20));
+            vBox.setPadding(new Insets(20, 20, 60, 20));
+
         } else if (id == 1) {
             Label label = new Label("View Chart of Regions");
 
@@ -215,19 +225,52 @@ public class Main extends Application {
             }
             choiceBox.getSelectionModel().select(0);
 
-            Button viewChart = new Button("View Chart of All Offence Groups");
+            Button viewChart = new Button("View Chart");
             viewChart.setOnAction(actionEvent -> {
                 String place = choiceBox.getValue();
                 ChartBoxType chartBox = new ChartBoxType(typeList, placeList, scoreList, place);
                 chartBox.display();
             });
 
-            Label text = new Label(StringValue.data_analysis);
+            Label text = new Label(StringValue.data_analysis2);
             text.setPadding(new Insets(30, 0, 0, 0));
 
-            vBox.getChildren().addAll(label, choiceBox, viewChart, text);
+            ChoiceBox<String> choiceBox2 = new ChoiceBox<>();
+            for (String s : placeList) {
+                choiceBox2.getItems().add(s);
+            }
+            choiceBox2.getSelectionModel().select(0);
+
+            Button viewChart2 = new Button("View Annual Average Chart");
+            viewChart2.setOnAction(actionEvent -> {
+                String place = choiceBox2.getValue();
+                ChartBoxTypeAverage chartBox = new ChartBoxTypeAverage(typeList, placeList, scoreList, place);
+                chartBox.display();
+            });
+
+            Label text2 = new Label(StringValue.all_average);
+            text2.setPadding(new Insets(30, 0, 0, 0));
+
+            Button viewChart3 = new Button("View Annual Average Chart of All Groups");
+            viewChart3.setOnAction(actionEvent -> {
+                String type = choiceBox2.getValue();
+                ChartBoxPlaceAverageAll chartBox = new ChartBoxPlaceAverageAll(typeList, placeList, scoreList, type);
+                chartBox.display();
+            });
+
+            Label text3 = new Label(StringValue.total_group);
+            text3.setPadding(new Insets(30, 0, 0, 0));
+
+            Button viewChart4 = new Button("View Chart of Total Score");
+            viewChart4.setOnAction(actionEvent -> {
+                String type = choiceBox2.getValue();
+                ChartBoxPlaceAverageTotal chartBox = new ChartBoxPlaceAverageTotal(typeList, placeList, scoreList, type);
+                chartBox.display();
+            });
+
+            vBox.getChildren().addAll(label, choiceBox, viewChart, text, choiceBox2, viewChart2, text2, viewChart3, text3, viewChart4);
             vBox.setSpacing(10);
-            vBox.setPadding(new Insets(20, 20, 20, 20));
+            vBox.setPadding(new Insets(20, 20, 60, 20));
         }
     }
 }

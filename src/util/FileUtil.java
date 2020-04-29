@@ -44,8 +44,11 @@ public class FileUtil {
                                 split[i].trim()
                         );
                         list.add(score);
+                        if (place.contains("North East")) {
+                            //System.out.println(score.toString());
+                        }
                         if (time.equals("2002") && type.contains("Total")) {
-                            System.out.println(score.toString());
+                            //System.out.println(score.toString());
                         }
                         count++;
                     }

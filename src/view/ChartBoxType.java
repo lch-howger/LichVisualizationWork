@@ -38,7 +38,7 @@ public class ChartBoxType {
 
         CategoryAxis x = new CategoryAxis();
         NumberAxis y = new NumberAxis();
-        XYChart<String, Number> chart = new BarChart<>(x, y);
+        XYChart<String, Number> chart = new AreaChart<>(x, y);
 
         HashMap<String, XYChart.Series> map = new HashMap<>();
         for (String type : typeList) {

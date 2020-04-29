@@ -1,36 +1,37 @@
 package view;
 
 import javafx.scene.Scene;
-import javafx.scene.chart.*;
+import javafx.scene.chart.BarChart;
+import javafx.scene.chart.CategoryAxis;
+import javafx.scene.chart.NumberAxis;
+import javafx.scene.chart.XYChart;
 import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import model.Score;
-import util.ListUtil;
 import util.ParseUtil;
 import util.StringUtil;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
-public class ChartBoxPlaceAverage {
+public class ChartBoxTypeAverage {
 
     private List<String> typeList;
     private List<String> placeList;
     private List<Score> scoreList;
     private List<Score> list = new ArrayList<>();
-    private String type;
+    private String place;
 
-    public ChartBoxPlaceAverage(List<String> typeList, List<String> placeList, List<Score> scoreList, String type) {
+    public ChartBoxTypeAverage(List<String> typeList, List<String> placeList, List<Score> scoreList, String place) {
         this.typeList = typeList;
         this.placeList = placeList;
         this.scoreList = scoreList;
-        this.type = type;
+        this.place = place;
         double totalScore = 0;
         for (int i = 0; i < scoreList.size(); i++) {
             Score s = scoreList.get(i);
-            if (!s.getType().equals(type)) {
+            if (!s.getPlace().equals(place)) {
                 continue;
             }
             totalScore += ParseUtil.parseDouble(s.getScore());
@@ -51,10 +52,10 @@ public class ChartBoxPlaceAverage {
         NumberAxis y = new NumberAxis();
         XYChart<String, Number> chart = new BarChart<>(x, y);
         XYChart.Series series = new XYChart.Series();
-        series.setName(type);
+        series.setName(place);
 
         for (Score s : list) {
-            XYChart.Data data = new XYChart.Data(s.getPlace(), ParseUtil.parseDouble(s.getScore()));
+            XYChart.Data data = new XYChart.Data(s.getType(), ParseUtil.parseDouble(s.getScore()));
             series.getData().add(data);
         }
         chart.getData().add(series);
