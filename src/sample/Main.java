@@ -264,7 +264,7 @@ public class Main extends Application {
             Button viewChart4 = new Button("View Chart of Total Score");
             viewChart4.setOnAction(actionEvent -> {
                 String type = choiceBox2.getValue();
-                ChartBoxPlaceAverageTotal chartBox = new ChartBoxPlaceAverageTotal(typeList, placeList, scoreList, type);
+                ChartBoxTypeAverageTotal chartBox = new ChartBoxTypeAverageTotal(typeList, placeList, scoreList, type);
                 chartBox.display();
             });
 
