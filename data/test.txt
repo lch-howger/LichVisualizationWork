@@ -8,3 +8,11 @@
 8.South East
 9.South West
 10.WALES
+
+Total recorded crime
+Violence against the person
+Sexual offences
+Robbery
+Theft offences
+Criminal damage and arson
+Other crimes against society

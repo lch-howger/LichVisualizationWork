@@ -11,7 +11,7 @@ public class AlertUtil {
      */
     public static void alert(String message) {
         Alert dialog = new Alert(Alert.AlertType.INFORMATION);
-        dialog.setTitle("Alert");
+        dialog.setTitle("About");
         dialog.setHeaderText("");
         Label label = new Label(message);
         label.setWrapText(true);

@@ -1,9 +1,11 @@
 package util;
 
+import model.Rate;
 import model.Score;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.List;
 
 public class FileUtil {
 
@@ -24,7 +26,7 @@ public class FileUtil {
                     if (!ListUtil.containsPlace(place)) {
                         continue;
                     }
-                    if (!code.startsWith("E12")&&!code.startsWith("W92")) {
+                    if (!code.startsWith("E12") && !code.startsWith("W92")) {
                         continue;
                     }
                     if (!typeList.contains(type)) {
@@ -60,6 +62,51 @@ public class FileUtil {
             e.printStackTrace();
         }
         return new ArrayList[]{typeList, placeList, list};
+    }
+
+    public static List<Rate> initRate() {
+        File file = new File("data/data_rate.csv");
+        ArrayList<Rate> list = new ArrayList<>();
+        try {
+            BufferedReader reader = new BufferedReader(new FileReader(file));
+            String line;
+            int count = 0;
+            while ((line = reader.readLine()) != null) {
+                String[] split = line.split(",");
+                if (split.length == 21 && !split[2].equals(":")) {
+                    String type = split[0].trim();
+                    String code = split[1].trim();
+                    String place = split[2].trim();
+                    if (!ListUtil.containsPlace(place)) {
+                        continue;
+                    }
+                    if (!code.startsWith("E12") && !code.startsWith("W92")) {
+                        continue;
+                    }
+                    double[] doubles = new double[17];
+                    for (int i = 0; i < doubles.length; i++) {
+                        double v = ParseUtil.parseDouble(split[i + 3]);
+                        doubles[i] = v;
+                    }
+
+                    Rate rate = new Rate("" + count,
+                            code,
+                            type,
+                            place,
+                            doubles,
+                            ParseUtil.parseDouble(split[20]),
+                            ParseUtil.parseDouble(split[20]) / 17d
+                    );
+                    list.add(rate);
+                    count++;
+                }
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return list;
     }
 
     private static String getTime(int i) {

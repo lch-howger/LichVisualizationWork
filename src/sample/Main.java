@@ -20,7 +20,9 @@ import javafx.stage.Stage;
 import model.Rate;
 import model.Score;
 import util.AlertUtil;
+import util.ChoiceUtil;
 import util.FileUtil;
+import util.LabelUtil;
 import view.*;
 
 import java.io.File;
@@ -46,7 +48,7 @@ public class Main extends Application {
         initData();
         BorderPane layout = initLayout();
 
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("Crime Severity Data Visualisation");
         primaryStage.setScene(new Scene(layout, 1000, 600));
         primaryStage.show();
     }
@@ -73,12 +75,11 @@ public class Main extends Application {
 
     private MenuBar initMenu() {
         //create menus
-        Menu file = MenuFactory.createMenu("File");
         Menu help = MenuFactory.createMenu("Help");
 
         //create menu bar
         MenuBar menuBar = new MenuBar();
-        menuBar.getMenus().addAll(file, help);
+        menuBar.getMenus().addAll(help);
 
         return menuBar;
     }
@@ -157,6 +158,8 @@ public class Main extends Application {
         typeList = lists[0];
         placeList = lists[1];
         scoreList = lists[2];
+
+        rateList = FileUtil.initRate();
     }
 
     private void initRightView(VBox vBox, int id) {
@@ -269,6 +272,58 @@ public class Main extends Application {
             });
 
             vBox.getChildren().addAll(label, choiceBox, viewChart, text, choiceBox2, viewChart2, text2, viewChart3, text3, viewChart4);
+            vBox.setSpacing(10);
+            vBox.setPadding(new Insets(20, 20, 60, 20));
+        } else if (id == 2) {
+            Label label = new Label("View Chart of Offence Rate per 1000 population from 2002 to 2018");
+
+            ChoiceBox<String> choiceBox = ChoiceUtil.initChoice(typeList);
+
+            Button viewChart = new Button("View Chart");
+            viewChart.setOnAction(actionEvent -> {
+                String type = choiceBox.getValue();
+                RateBox rateBox = new RateBox(typeList, placeList, rateList, type);
+                rateBox.display();
+            });
+
+            Label text = LabelUtil.initLabel(StringValue.annualGrowth);
+
+            ChoiceBox<String> choiceBox2 = ChoiceUtil.initChoice(placeList);
+
+            Button viewChart2 = new Button("View Annual Rate of Growth Chart");
+            viewChart2.setOnAction(actionEvent -> {
+                String place = choiceBox2.getValue();
+                RateBoxGrowth chartBox = new RateBoxGrowth(typeList, placeList, rateList, place);
+                chartBox.display();
+            });
+
+            vBox.getChildren().addAll(label, choiceBox, viewChart, text, choiceBox2, viewChart2);
+            vBox.setSpacing(10);
+            vBox.setPadding(new Insets(20, 20, 60, 20));
+        } else if (id == 3) {
+            Label label = new Label("View Chart of Offence Rate per 1000 population from 2002 to 2018");
+
+            ChoiceBox<String> choiceBox = ChoiceUtil.initChoice(placeList);
+
+            Button viewChart = new Button("View Chart");
+            viewChart.setOnAction(actionEvent -> {
+                String place = choiceBox.getValue();
+                RateBoxPlace rateBox = new RateBoxPlace(typeList, placeList, rateList, place);
+                rateBox.display();
+            });
+
+            Label text = LabelUtil.initLabel(StringValue.annualGrowth2);
+
+            ChoiceBox<String> choiceBox2 = ChoiceUtil.initChoice(typeList);
+
+            Button viewChart2 = new Button("View Annual Rate of Growth Chart");
+            viewChart2.setOnAction(actionEvent -> {
+                String type = choiceBox2.getValue();
+                RateBoxGrowthPlace chartBox = new RateBoxGrowthPlace(typeList, placeList, rateList, type);
+                chartBox.display();
+            });
+
+            vBox.getChildren().addAll(label, choiceBox, viewChart, text, choiceBox2, viewChart2);
             vBox.setSpacing(10);
             vBox.setPadding(new Insets(20, 20, 60, 20));
         }

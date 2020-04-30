@@ -31,4 +31,30 @@ public class StringValue {
             "4.Robbery\n" +
             "5.Other crimes against society\n" +
             "6.Criminal damage and arson";
+
+    public static final String annualGrowth = "Calculate the Annual Rate of Growth.\n" +
+            "From the charts, for all regions:\n" +
+            "1.Violence against the person\n" +
+            "2.Other crimes against society\n" +
+            "3.Sexual offences\n" +
+            "have higher annual rate of growth.";
+
+    public static final String annualGrowth2 = "Calculate the Annual Rate of Growth.\n" +
+            "From the charts:\n" +
+            "1.For total recorded crime, all regions are on the declining\n" +
+            "2.For Violence against the person, all regions are on the increase\n" +
+            "3.For Sexual offences, all regions are on the increase\n" +
+            "4.For Robbery, all regions are on the declining\n" +
+            "5.For Theft offences, all regions are on the declining\n" +
+            "6.For Criminal damage and arson, all regions are on the declining\n" +
+            "7.For Other crimes against society, all regions are on the increase\n" +
+            "\n" +
+            "Different regions rank the highest annual rate of growth for offence groups:" +
+            "1.Total recorded crime\tNorth East\n" +
+            "2.Violence against the person\tYorkshire and The Humber\n" +
+            "3.Sexual offences\t\tNorth East\n" +
+            "4.Robbery\t\t\tEast\n" +
+            "5.Theft offences\t\tEast\n" +
+            "6.Criminal damage and arson\tSouth East\n" +
+            "7.Other crimes against society\tNorth West";
 }
